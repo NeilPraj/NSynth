@@ -2510,7 +2510,7 @@
 	)
 	(text "2.5Vpp Input\n"
 		(exclude_from_sim no)
-		(at 27.432 66.802 0)
+		(at 26.67 67.31 0)
 		(effects
 			(font
 				(size 1.27 1.27)
@@ -2655,6 +2655,18 @@
 		(diameter 0)
 		(color 0 0 0 0)
 		(uuid "5fba5830-23ef-403a-8941-8c96b0f305cc")
+	)
+	(junction
+		(at 195.58 92.71)
+		(diameter 0)
+		(color 0 0 0 0)
+		(uuid "68a801f1-4792-4bfb-b31a-5e38fa657105")
+	)
+	(junction
+		(at 195.58 72.39)
+		(diameter 0)
+		(color 0 0 0 0)
+		(uuid "7b218bba-2ae2-42a0-b8eb-d8bf637dcac4")
 	)
 	(junction
 		(at 138.43 135.89)
@@ -2820,7 +2832,7 @@
 	)
 	(wire
 		(pts
-			(xy 22.86 134.62) (xy 43.18 134.62)
+			(xy 34.29 134.62) (xy 43.18 134.62)
 		)
 		(stroke
 			(width 0)
@@ -2850,7 +2862,7 @@
 	)
 	(wire
 		(pts
-			(xy 22.86 142.24) (xy 35.56 142.24)
+			(xy 34.29 142.24) (xy 35.56 142.24)
 		)
 		(stroke
 			(width 0)
@@ -2917,6 +2929,16 @@
 			(type default)
 		)
 		(uuid "2bc0871a-bb82-448b-b90c-002998787fc9")
+	)
+	(wire
+		(pts
+			(xy 195.58 72.39) (xy 195.58 74.93)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "2dfb2d06-3784-4b5a-954d-1e5eb26f28ac")
 	)
 	(wire
 		(pts
@@ -3007,6 +3029,16 @@
 			(type default)
 		)
 		(uuid "3e43c106-9bbd-4dc1-8b43-99e108671261")
+	)
+	(wire
+		(pts
+			(xy 203.2 92.71) (xy 204.47 92.71)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "3e99c185-8991-49df-add0-48a85084c322")
 	)
 	(wire
 		(pts
@@ -3210,13 +3242,23 @@
 	)
 	(wire
 		(pts
-			(xy 21.59 57.15) (xy 41.91 57.15)
+			(xy 30.48 57.15) (xy 41.91 57.15)
 		)
 		(stroke
 			(width 0)
 			(type default)
 		)
 		(uuid "641e8f6d-88de-4272-ba3c-d185a3040bee")
+	)
+	(wire
+		(pts
+			(xy 195.58 90.17) (xy 195.58 92.71)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "6b0b9c5d-b432-4c78-bdf4-fb5b4a1c969e")
 	)
 	(wire
 		(pts
@@ -3250,7 +3292,7 @@
 	)
 	(wire
 		(pts
-			(xy 21.59 43.18) (xy 62.23 43.18)
+			(xy 31.75 43.18) (xy 62.23 43.18)
 		)
 		(stroke
 			(width 0)
@@ -3410,16 +3452,6 @@
 	)
 	(wire
 		(pts
-			(xy 21.59 64.77) (xy 34.29 64.77)
-		)
-		(stroke
-			(width 0)
-			(type default)
-		)
-		(uuid "8f807758-4cd3-408a-8678-ae40f5424af3")
-	)
-	(wire
-		(pts
 			(xy 158.75 135.89) (xy 158.75 144.78)
 		)
 		(stroke
@@ -3450,6 +3482,16 @@
 	)
 	(wire
 		(pts
+			(xy 195.58 92.71) (xy 195.58 95.25)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "982c2d45-4189-4292-9463-c88ecae19076")
+	)
+	(wire
+		(pts
 			(xy 271.78 66.04) (xy 271.78 68.58)
 		)
 		(stroke
@@ -3460,6 +3502,16 @@
 	)
 	(wire
 		(pts
+			(xy 30.48 64.77) (xy 34.29 64.77)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "9c11b3d5-bcd8-40f1-9fb4-f75c676fef2a")
+	)
+	(wire
+		(pts
 			(xy 232.41 90.17) (xy 232.41 92.71)
 		)
 		(stroke
@@ -3467,6 +3519,16 @@
 			(type default)
 		)
 		(uuid "9fc51393-6507-4a6b-bd6b-0d0a79a4421d")
+	)
+	(wire
+		(pts
+			(xy 195.58 69.85) (xy 195.58 72.39)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "9fce0eb7-45b7-4ad4-942a-b3a50244c780")
 	)
 	(wire
 		(pts
@@ -3520,7 +3582,7 @@
 	)
 	(wire
 		(pts
-			(xy 22.86 120.65) (xy 63.5 120.65)
+			(xy 39.37 120.65) (xy 63.5 120.65)
 		)
 		(stroke
 			(width 0)
@@ -3587,6 +3649,16 @@
 			(type default)
 		)
 		(uuid "d35d1921-724c-4afc-96a1-b07a7ac10b32")
+	)
+	(wire
+		(pts
+			(xy 203.2 72.39) (xy 204.47 72.39)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "d7684ece-e06a-426b-ba75-0c539d8ff105")
 	)
 	(wire
 		(pts
@@ -3738,26 +3810,6 @@
 		)
 		(uuid "fe35dfa2-df2f-4ee5-9f13-6568b40bf18e")
 	)
-	(label "PMOD_B_AMT"
-		(at 22.86 120.65 0)
-		(effects
-			(font
-				(size 1.27 1.27)
-			)
-			(justify left bottom)
-		)
-		(uuid "3d567d6d-206f-4254-b34a-967fcb45c2a6")
-	)
-	(label "PMOD_EN"
-		(at 21.59 57.15 0)
-		(effects
-			(font
-				(size 1.27 1.27)
-			)
-			(justify left bottom)
-		)
-		(uuid "69b1502b-7f7f-4737-98bb-5a3827122d54")
-	)
 	(label "PMOD_SCALED"
 		(at 140.97 69.85 180)
 		(effects
@@ -3767,46 +3819,6 @@
 			(justify right bottom)
 		)
 		(uuid "8c36a498-75b5-4d8e-bffc-ca77235192d6")
-	)
-	(label "PMOD_B_IN"
-		(at 22.86 142.24 0)
-		(effects
-			(font
-				(size 1.27 1.27)
-			)
-			(justify left bottom)
-		)
-		(uuid "8e66e476-f3e4-4d17-a681-3274708d824a")
-	)
-	(label "PMOD_IN"
-		(at 21.59 64.77 0)
-		(effects
-			(font
-				(size 1.27 1.27)
-			)
-			(justify left bottom)
-		)
-		(uuid "c41b7b03-3d26-43fd-8571-0786c67b7c55")
-	)
-	(label "PMOD_AMT"
-		(at 21.59 43.18 0)
-		(effects
-			(font
-				(size 1.27 1.27)
-			)
-			(justify left bottom)
-		)
-		(uuid "cfabf27e-e036-4675-9287-221299c4b413")
-	)
-	(label "PMOD_B_EN"
-		(at 22.86 134.62 0)
-		(effects
-			(font
-				(size 1.27 1.27)
-			)
-			(justify left bottom)
-		)
-		(uuid "cfd33dec-e06c-4c6d-9a49-7de8e06d5956")
 	)
 	(hierarchical_label "PWM_MOD_OUT"
 		(shape output)
@@ -3819,6 +3831,50 @@
 		)
 		(uuid "2b0e12a0-c59c-4b3f-bd09-8ebc8f882c63")
 	)
+	(hierarchical_label "PWM_MOD_AMOUNT"
+		(shape input)
+		(at 39.37 120.65 180)
+		(effects
+			(font
+				(size 1.27 1.27)
+			)
+			(justify right)
+		)
+		(uuid "318ae0ef-53fe-49c0-bd7c-0dd4b04d1630")
+	)
+	(hierarchical_label "PWM_MOD_IN"
+		(shape input)
+		(at 34.29 142.24 180)
+		(effects
+			(font
+				(size 1.27 1.27)
+			)
+			(justify right)
+		)
+		(uuid "3a4c962e-9007-479e-bafc-a72e3d69ec71")
+	)
+	(hierarchical_label "PWM_MOD_EN"
+		(shape input)
+		(at 34.29 134.62 180)
+		(effects
+			(font
+				(size 1.27 1.27)
+			)
+			(justify right)
+		)
+		(uuid "44e3a0fc-befa-4ff0-b061-735467aa86ee")
+	)
+	(hierarchical_label "PMOD_IN"
+		(shape input)
+		(at 30.48 64.77 180)
+		(effects
+			(font
+				(size 1.27 1.27)
+			)
+			(justify right)
+		)
+		(uuid "68f7a473-0169-405a-90b5-7f4876137a1a")
+	)
 	(hierarchical_label "2.5V_REF"
 		(shape input)
 		(at 125.73 128.27 180)
@@ -3829,6 +3885,28 @@
 			(justify right)
 		)
 		(uuid "7693a10e-a1a3-49ae-8f56-2a0f173d48fe")
+	)
+	(hierarchical_label "PMOD_AMT"
+		(shape input)
+		(at 31.75 43.18 180)
+		(effects
+			(font
+				(size 1.27 1.27)
+			)
+			(justify right)
+		)
+		(uuid "7e8addfe-b69f-4a03-9bff-ed4f0f1f2b09")
+	)
+	(hierarchical_label "PMOD_EN"
+		(shape input)
+		(at 30.48 57.15 180)
+		(effects
+			(font
+				(size 1.27 1.27)
+			)
+			(justify right)
+		)
+		(uuid "a48ddcb7-cc21-4575-a6cf-89a157407eb3")
 	)
 	(hierarchical_label "PMOD_OUT"
 		(shape output)
@@ -3851,7 +3929,7 @@
 		(dnp no)
 		(fields_autoplaced yes)
 		(uuid "063d2cb6-9509-43fc-981c-df826ced38b0")
-		(property "Reference" "#PWR027"
+		(property "Reference" "#PWR031"
 			(at 247.65 91.44 0)
 			(effects
 				(font
@@ -3901,7 +3979,7 @@
 		(instances
 			(project "SSI2131_Edge_Card"
 				(path "/b475957d-1040-465b-8a46-ce8870a10d46/ea36dd21-493f-4eca-99ba-43f0cfa1d6fe"
-					(reference "#PWR027")
+					(reference "#PWR031")
 					(unit 1)
 				)
 			)
@@ -3916,7 +3994,7 @@
 		(on_board yes)
 		(dnp no)
 		(uuid "0949bdfd-6f2e-4186-bb46-0e0c607942fe")
-		(property "Reference" "R34"
+		(property "Reference" "R32"
 			(at 170.18 138.43 90)
 			(effects
 				(font
@@ -3968,7 +4046,7 @@
 		(instances
 			(project "SSI2131_Edge_Card"
 				(path "/b475957d-1040-465b-8a46-ce8870a10d46/ea36dd21-493f-4eca-99ba-43f0cfa1d6fe"
-					(reference "R34")
+					(reference "R32")
 					(unit 1)
 				)
 			)
@@ -3983,7 +4061,7 @@
 		(on_board yes)
 		(dnp no)
 		(uuid "09882c7d-3f41-458e-b345-c16446c239bf")
-		(property "Reference" "C3"
+		(property "Reference" "C19"
 			(at 55.88 135.89 90)
 			(effects
 				(font
@@ -4035,7 +4113,7 @@
 		(instances
 			(project "SSI2131_Edge_Card"
 				(path "/b475957d-1040-465b-8a46-ce8870a10d46/ea36dd21-493f-4eca-99ba-43f0cfa1d6fe"
-					(reference "C3")
+					(reference "C19")
 					(unit 1)
 				)
 			)
@@ -4051,7 +4129,7 @@
 		(dnp no)
 		(fields_autoplaced yes)
 		(uuid "0b343bf4-f03a-46e4-92c2-acfba873e897")
-		(property "Reference" "R6"
+		(property "Reference" "R23"
 			(at 67.31 114.3 90)
 			(effects
 				(font
@@ -4103,7 +4181,7 @@
 		(instances
 			(project "SSI2131_Edge_Card"
 				(path "/b475957d-1040-465b-8a46-ce8870a10d46/ea36dd21-493f-4eca-99ba-43f0cfa1d6fe"
-					(reference "R6")
+					(reference "R23")
 					(unit 1)
 				)
 			)
@@ -4118,7 +4196,7 @@
 		(on_board yes)
 		(dnp no)
 		(uuid "0b78bb1e-9031-421b-a856-335bf3387637")
-		(property "Reference" "R19"
+		(property "Reference" "R18"
 			(at 116.84 56.134 90)
 			(effects
 				(font
@@ -4170,7 +4248,7 @@
 		(instances
 			(project "SSI2131_Edge_Card"
 				(path "/b475957d-1040-465b-8a46-ce8870a10d46/ea36dd21-493f-4eca-99ba-43f0cfa1d6fe"
-					(reference "R19")
+					(reference "R18")
 					(unit 1)
 				)
 			)
@@ -4253,7 +4331,7 @@
 		(dnp no)
 		(fields_autoplaced yes)
 		(uuid "0f521894-30f8-4dab-aed8-c8eda2ee6d9c")
-		(property "Reference" "#PWR036"
+		(property "Reference" "#PWR033"
 			(at 143.51 153.67 0)
 			(effects
 				(font
@@ -4303,7 +4381,7 @@
 		(instances
 			(project "SSI2131_Edge_Card"
 				(path "/b475957d-1040-465b-8a46-ce8870a10d46/ea36dd21-493f-4eca-99ba-43f0cfa1d6fe"
-					(reference "#PWR036")
+					(reference "#PWR033")
 					(unit 1)
 				)
 			)
@@ -4319,7 +4397,7 @@
 		(dnp no)
 		(fields_autoplaced yes)
 		(uuid "115f0f0b-f390-4380-97e2-9c0ec93c616a")
-		(property "Reference" "R3"
+		(property "Reference" "R15"
 			(at 66.04 36.83 90)
 			(effects
 				(font
@@ -4371,7 +4449,7 @@
 		(instances
 			(project "SSI2131_Edge_Card"
 				(path "/b475957d-1040-465b-8a46-ce8870a10d46/ea36dd21-493f-4eca-99ba-43f0cfa1d6fe"
-					(reference "R3")
+					(reference "R15")
 					(unit 1)
 				)
 			)
@@ -4387,7 +4465,7 @@
 		(dnp no)
 		(fields_autoplaced yes)
 		(uuid "12ecc568-db9d-463b-a736-69ba8101c300")
-		(property "Reference" "U3"
+		(property "Reference" "U7"
 			(at 212.09 81.2799 0)
 			(effects
 				(font
@@ -4459,7 +4537,7 @@
 		(instances
 			(project "SSI2131_Edge_Card"
 				(path "/b475957d-1040-465b-8a46-ce8870a10d46/ea36dd21-493f-4eca-99ba-43f0cfa1d6fe"
-					(reference "U3")
+					(reference "U7")
 					(unit 3)
 				)
 			)
@@ -4491,7 +4569,7 @@
 				)
 			)
 		)
-		(property "Footprint" ""
+		(property "Footprint" "Package_SO:SOIC-8_3.9x4.9mm_P1.27mm"
 			(at 151.13 144.78 0)
 			(effects
 				(font
@@ -4560,7 +4638,7 @@
 		(on_board yes)
 		(dnp no)
 		(uuid "16ff441e-b6a9-46dc-88e1-23faf4ff0481")
-		(property "Reference" "R32"
+		(property "Reference" "R25"
 			(at 133.35 124.46 90)
 			(effects
 				(font
@@ -4612,7 +4690,7 @@
 		(instances
 			(project "SSI2131_Edge_Card"
 				(path "/b475957d-1040-465b-8a46-ce8870a10d46/ea36dd21-493f-4eca-99ba-43f0cfa1d6fe"
-					(reference "R32")
+					(reference "R25")
 					(unit 1)
 				)
 			)
@@ -4628,7 +4706,7 @@
 		(dnp no)
 		(fields_autoplaced yes)
 		(uuid "1d13d1ca-88c9-43ba-b8ac-09fb8587b6d9")
-		(property "Reference" "#PWR032"
+		(property "Reference" "#PWR015"
 			(at 280.67 72.39 0)
 			(effects
 				(font
@@ -4678,7 +4756,7 @@
 		(instances
 			(project "SSI2131_Edge_Card"
 				(path "/b475957d-1040-465b-8a46-ce8870a10d46/ea36dd21-493f-4eca-99ba-43f0cfa1d6fe"
-					(reference "#PWR032")
+					(reference "#PWR015")
 					(unit 1)
 				)
 			)
@@ -4694,7 +4772,7 @@
 		(dnp no)
 		(fields_autoplaced yes)
 		(uuid "1df3f815-2360-46c5-8cfe-edd6cc890fb7")
-		(property "Reference" "#PWR028"
+		(property "Reference" "#PWR022"
 			(at 256.54 78.74 0)
 			(effects
 				(font
@@ -4744,7 +4822,7 @@
 		(instances
 			(project "SSI2131_Edge_Card"
 				(path "/b475957d-1040-465b-8a46-ce8870a10d46/ea36dd21-493f-4eca-99ba-43f0cfa1d6fe"
-					(reference "#PWR028")
+					(reference "#PWR022")
 					(unit 1)
 				)
 			)
@@ -4752,7 +4830,7 @@
 	)
 	(symbol
 		(lib_id "4xxx:4066")
-		(at 165.1 100.33 0)
+		(at 256.54 33.02 0)
 		(unit 4)
 		(exclude_from_sim no)
 		(in_bom yes)
@@ -4760,8 +4838,8 @@
 		(dnp no)
 		(fields_autoplaced yes)
 		(uuid "215ec57e-9b7d-472f-8757-8769c5ae6042")
-		(property "Reference" "U1"
-			(at 165.1 105.41 0)
+		(property "Reference" "U6"
+			(at 256.54 38.1 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -4769,7 +4847,7 @@
 			)
 		)
 		(property "Value" "CD4066BM"
-			(at 165.1 107.95 0)
+			(at 256.54 40.64 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -4777,7 +4855,7 @@
 			)
 		)
 		(property "Footprint" "Package_SO:SOIC-14_3.9x8.7mm_P1.27mm"
-			(at 165.1 100.33 0)
+			(at 256.54 33.02 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -4786,7 +4864,7 @@
 			)
 		)
 		(property "Datasheet" "http://www.ti.com/lit/ds/symlink/cd4066b.pdf"
-			(at 165.1 100.33 0)
+			(at 256.54 33.02 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -4795,7 +4873,7 @@
 			)
 		)
 		(property "Description" "Quad Analog Switches"
-			(at 165.1 100.33 0)
+			(at 256.54 33.02 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -4848,7 +4926,7 @@
 		(instances
 			(project "SSI2131_Edge_Card"
 				(path "/b475957d-1040-465b-8a46-ce8870a10d46/ea36dd21-493f-4eca-99ba-43f0cfa1d6fe"
-					(reference "U1")
+					(reference "U6")
 					(unit 4)
 				)
 			)
@@ -4863,7 +4941,7 @@
 		(on_board yes)
 		(dnp no)
 		(uuid "21aac7fa-626a-402e-9104-b18a71f8350d")
-		(property "Reference" "R13"
+		(property "Reference" "R34"
 			(at 76.2 151.13 90)
 			(effects
 				(font
@@ -4915,7 +4993,7 @@
 		(instances
 			(project "SSI2131_Edge_Card"
 				(path "/b475957d-1040-465b-8a46-ce8870a10d46/ea36dd21-493f-4eca-99ba-43f0cfa1d6fe"
-					(reference "R13")
+					(reference "R34")
 					(unit 1)
 				)
 			)
@@ -4931,7 +5009,7 @@
 		(dnp no)
 		(fields_autoplaced yes)
 		(uuid "2472f7eb-4fc3-4cee-8af9-7755cd82335b")
-		(property "Reference" "R12"
+		(property "Reference" "R24"
 			(at 77.47 114.3 90)
 			(effects
 				(font
@@ -4983,7 +5061,7 @@
 		(instances
 			(project "SSI2131_Edge_Card"
 				(path "/b475957d-1040-465b-8a46-ce8870a10d46/ea36dd21-493f-4eca-99ba-43f0cfa1d6fe"
-					(reference "R12")
+					(reference "R24")
 					(unit 1)
 				)
 			)
@@ -4998,7 +5076,7 @@
 		(on_board yes)
 		(dnp no)
 		(uuid "2535843d-9c2f-4cd5-96a8-5a9ca687a191")
-		(property "Reference" "C6"
+		(property "Reference" "C18"
 			(at 95.25 97.028 90)
 			(effects
 				(font
@@ -5050,7 +5128,7 @@
 		(instances
 			(project "SSI2131_Edge_Card"
 				(path "/b475957d-1040-465b-8a46-ce8870a10d46/ea36dd21-493f-4eca-99ba-43f0cfa1d6fe"
-					(reference "C6")
+					(reference "C18")
 					(unit 1)
 				)
 			)
@@ -5065,7 +5143,7 @@
 		(on_board yes)
 		(dnp no)
 		(uuid "29146c5f-425f-4a14-9a26-62fb80dee146")
-		(property "Reference" "R10"
+		(property "Reference" "R21"
 			(at 74.93 73.66 90)
 			(effects
 				(font
@@ -5117,7 +5195,7 @@
 		(instances
 			(project "SSI2131_Edge_Card"
 				(path "/b475957d-1040-465b-8a46-ce8870a10d46/ea36dd21-493f-4eca-99ba-43f0cfa1d6fe"
-					(reference "R10")
+					(reference "R21")
 					(unit 1)
 				)
 			)
@@ -5199,7 +5277,7 @@
 		(dnp no)
 		(fields_autoplaced yes)
 		(uuid "2bc2a969-8b86-4fba-81dc-5739ddd87cb6")
-		(property "Reference" "#PWR019"
+		(property "Reference" "#PWR029"
 			(at 210.82 91.44 0)
 			(effects
 				(font
@@ -5249,7 +5327,7 @@
 		(instances
 			(project "SSI2131_Edge_Card"
 				(path "/b475957d-1040-465b-8a46-ce8870a10d46/ea36dd21-493f-4eca-99ba-43f0cfa1d6fe"
-					(reference "#PWR019")
+					(reference "#PWR029")
 					(unit 1)
 				)
 			)
@@ -5265,7 +5343,7 @@
 		(dnp no)
 		(fields_autoplaced yes)
 		(uuid "3429065b-dead-42f2-ac05-75a66a144aa9")
-		(property "Reference" "#PWR022"
+		(property "Reference" "#PWR017"
 			(at 232.41 73.66 0)
 			(effects
 				(font
@@ -5315,7 +5393,7 @@
 		(instances
 			(project "SSI2131_Edge_Card"
 				(path "/b475957d-1040-465b-8a46-ce8870a10d46/ea36dd21-493f-4eca-99ba-43f0cfa1d6fe"
-					(reference "#PWR022")
+					(reference "#PWR017")
 					(unit 1)
 				)
 			)
@@ -5331,7 +5409,7 @@
 		(on_board yes)
 		(dnp no)
 		(uuid "3446536a-8d89-4e6a-b3ff-e95fba41efac")
-		(property "Reference" "U2"
+		(property "Reference" "U5"
 			(at 116.84 80.01 0)
 			(effects
 				(font
@@ -5401,7 +5479,7 @@
 		(instances
 			(project "SSI2131_Edge_Card"
 				(path "/b475957d-1040-465b-8a46-ce8870a10d46/ea36dd21-493f-4eca-99ba-43f0cfa1d6fe"
-					(reference "U2")
+					(reference "U5")
 					(unit 2)
 				)
 			)
@@ -5417,7 +5495,7 @@
 		(on_board yes)
 		(dnp no)
 		(uuid "3b26b0b9-714c-4e01-b01d-7f2441bd027f")
-		(property "Reference" "U3"
+		(property "Reference" "U7"
 			(at 120.65 157.48 0)
 			(effects
 				(font
@@ -5487,7 +5565,7 @@
 		(instances
 			(project "SSI2131_Edge_Card"
 				(path "/b475957d-1040-465b-8a46-ce8870a10d46/ea36dd21-493f-4eca-99ba-43f0cfa1d6fe"
-					(reference "U3")
+					(reference "U7")
 					(unit 2)
 				)
 			)
@@ -5502,7 +5580,7 @@
 		(on_board yes)
 		(dnp no)
 		(uuid "3b4a0c85-ac16-4e3b-a76e-f3201a0dfc9c")
-		(property "Reference" "C15"
+		(property "Reference" "C13"
 			(at 236.22 68.834 90)
 			(effects
 				(font
@@ -5554,7 +5632,7 @@
 		(instances
 			(project "SSI2131_Edge_Card"
 				(path "/b475957d-1040-465b-8a46-ce8870a10d46/ea36dd21-493f-4eca-99ba-43f0cfa1d6fe"
-					(reference "C15")
+					(reference "C13")
 					(unit 1)
 				)
 			)
@@ -5570,7 +5648,7 @@
 		(dnp no)
 		(fields_autoplaced yes)
 		(uuid "3cc44fcf-1a51-4f8c-9dfb-b0d1e1e782db")
-		(property "Reference" "#PWR037"
+		(property "Reference" "#PWR034"
 			(at 177.8 153.67 0)
 			(effects
 				(font
@@ -5620,7 +5698,7 @@
 		(instances
 			(project "SSI2131_Edge_Card"
 				(path "/b475957d-1040-465b-8a46-ce8870a10d46/ea36dd21-493f-4eca-99ba-43f0cfa1d6fe"
-					(reference "#PWR037")
+					(reference "#PWR034")
 					(unit 1)
 				)
 			)
@@ -5635,7 +5713,7 @@
 		(on_board yes)
 		(dnp no)
 		(uuid "3f5698e1-db28-4277-af75-1c8891782ad9")
-		(property "Reference" "R9"
+		(property "Reference" "R31"
 			(at 73.66 138.43 90)
 			(effects
 				(font
@@ -5687,7 +5765,74 @@
 		(instances
 			(project "SSI2131_Edge_Card"
 				(path "/b475957d-1040-465b-8a46-ce8870a10d46/ea36dd21-493f-4eca-99ba-43f0cfa1d6fe"
-					(reference "R9")
+					(reference "R31")
+					(unit 1)
+				)
+			)
+		)
+	)
+	(symbol
+		(lib_id "Device:C")
+		(at 199.39 92.71 90)
+		(unit 1)
+		(exclude_from_sim no)
+		(in_bom yes)
+		(on_board yes)
+		(dnp no)
+		(uuid "42d62bf3-1bfa-473a-8ec2-e16e034ffb4b")
+		(property "Reference" "C21"
+			(at 199.39 89.154 90)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Value" "0.1uf"
+			(at 199.39 96.266 90)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Footprint" "Capacitor_SMD:C_0603_1608Metric"
+			(at 203.2 91.7448 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Datasheet" "~"
+			(at 199.39 92.71 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Description" "Unpolarized capacitor"
+			(at 199.39 92.71 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(pin "1"
+			(uuid "0d031ba2-f668-4297-a630-8811b1be0d51")
+		)
+		(pin "2"
+			(uuid "1beec0d2-db5c-43b9-83df-6d67499ab7e0")
+		)
+		(instances
+			(project "SSI2131_Edge_Card"
+				(path "/b475957d-1040-465b-8a46-ce8870a10d46/ea36dd21-493f-4eca-99ba-43f0cfa1d6fe"
+					(reference "C21")
 					(unit 1)
 				)
 			)
@@ -5703,7 +5848,7 @@
 		(dnp no)
 		(fields_autoplaced yes)
 		(uuid "4b5098ad-953e-4f99-b031-6ffa18f366f3")
-		(property "Reference" "#PWR029"
+		(property "Reference" "#PWR027"
 			(at 256.54 99.06 0)
 			(effects
 				(font
@@ -5753,7 +5898,7 @@
 		(instances
 			(project "SSI2131_Edge_Card"
 				(path "/b475957d-1040-465b-8a46-ce8870a10d46/ea36dd21-493f-4eca-99ba-43f0cfa1d6fe"
-					(reference "#PWR029")
+					(reference "#PWR027")
 					(unit 1)
 				)
 			)
@@ -5768,7 +5913,7 @@
 		(on_board yes)
 		(dnp no)
 		(uuid "4d3a78cc-4c12-40c6-8350-0cb5ef70fd7f")
-		(property "Reference" "C18"
+		(property "Reference" "C17"
 			(at 251.46 89.154 90)
 			(effects
 				(font
@@ -5820,7 +5965,7 @@
 		(instances
 			(project "SSI2131_Edge_Card"
 				(path "/b475957d-1040-465b-8a46-ce8870a10d46/ea36dd21-493f-4eca-99ba-43f0cfa1d6fe"
-					(reference "C18")
+					(reference "C17")
 					(unit 1)
 				)
 			)
@@ -5912,7 +6057,7 @@
 		(on_board yes)
 		(dnp no)
 		(uuid "4dc08979-5341-4dad-9839-dc671139287e")
-		(property "Reference" "R33"
+		(property "Reference" "R28"
 			(at 148.59 132.08 90)
 			(effects
 				(font
@@ -5964,7 +6109,7 @@
 		(instances
 			(project "SSI2131_Edge_Card"
 				(path "/b475957d-1040-465b-8a46-ce8870a10d46/ea36dd21-493f-4eca-99ba-43f0cfa1d6fe"
-					(reference "R33")
+					(reference "R28")
 					(unit 1)
 				)
 			)
@@ -6050,7 +6195,7 @@
 		(dnp no)
 		(fields_autoplaced yes)
 		(uuid "5228b180-5056-4bd6-8870-bcaefcc6161d")
-		(property "Reference" "R8"
+		(property "Reference" "R16"
 			(at 76.2 36.83 90)
 			(effects
 				(font
@@ -6102,7 +6247,7 @@
 		(instances
 			(project "SSI2131_Edge_Card"
 				(path "/b475957d-1040-465b-8a46-ce8870a10d46/ea36dd21-493f-4eca-99ba-43f0cfa1d6fe"
-					(reference "R8")
+					(reference "R16")
 					(unit 1)
 				)
 			)
@@ -6118,7 +6263,7 @@
 		(dnp no)
 		(fields_autoplaced yes)
 		(uuid "562d19f2-cecd-442b-a472-caf84ec160fb")
-		(property "Reference" "#PWR025"
+		(property "Reference" "#PWR026"
 			(at 241.3 99.06 0)
 			(effects
 				(font
@@ -6168,7 +6313,7 @@
 		(instances
 			(project "SSI2131_Edge_Card"
 				(path "/b475957d-1040-465b-8a46-ce8870a10d46/ea36dd21-493f-4eca-99ba-43f0cfa1d6fe"
-					(reference "#PWR025")
+					(reference "#PWR026")
 					(unit 1)
 				)
 			)
@@ -6184,7 +6329,7 @@
 		(dnp no)
 		(fields_autoplaced yes)
 		(uuid "572f1a77-e27a-404c-9a73-c2e81b9fc646")
-		(property "Reference" "#PWR024"
+		(property "Reference" "#PWR021"
 			(at 241.3 78.74 0)
 			(effects
 				(font
@@ -6234,7 +6379,7 @@
 		(instances
 			(project "SSI2131_Edge_Card"
 				(path "/b475957d-1040-465b-8a46-ce8870a10d46/ea36dd21-493f-4eca-99ba-43f0cfa1d6fe"
-					(reference "#PWR024")
+					(reference "#PWR021")
 					(unit 1)
 				)
 			)
@@ -6249,7 +6394,7 @@
 		(on_board yes)
 		(dnp no)
 		(uuid "5bcac6da-d049-49aa-a341-6cc4042c3319")
-		(property "Reference" "R4"
+		(property "Reference" "R30"
 			(at 64.77 138.43 90)
 			(effects
 				(font
@@ -6301,7 +6446,7 @@
 		(instances
 			(project "SSI2131_Edge_Card"
 				(path "/b475957d-1040-465b-8a46-ce8870a10d46/ea36dd21-493f-4eca-99ba-43f0cfa1d6fe"
-					(reference "R4")
+					(reference "R30")
 					(unit 1)
 				)
 			)
@@ -6317,7 +6462,7 @@
 		(on_board yes)
 		(dnp no)
 		(uuid "5f9581aa-cc10-48c9-9e78-f0d6d309bbdb")
-		(property "Reference" "U3"
+		(property "Reference" "U7"
 			(at 91.44 133.35 0)
 			(effects
 				(font
@@ -6387,7 +6532,139 @@
 		(instances
 			(project "SSI2131_Edge_Card"
 				(path "/b475957d-1040-465b-8a46-ce8870a10d46/ea36dd21-493f-4eca-99ba-43f0cfa1d6fe"
-					(reference "U3")
+					(reference "U7")
+					(unit 1)
+				)
+			)
+		)
+	)
+	(symbol
+		(lib_id "power:GND")
+		(at 204.47 92.71 0)
+		(unit 1)
+		(exclude_from_sim no)
+		(in_bom yes)
+		(on_board yes)
+		(dnp no)
+		(fields_autoplaced yes)
+		(uuid "5fd734c9-919a-4c82-a415-f5d3d2be551f")
+		(property "Reference" "#PWR040"
+			(at 204.47 99.06 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Value" "GND"
+			(at 204.47 97.79 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Footprint" ""
+			(at 204.47 92.71 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Datasheet" ""
+			(at 204.47 92.71 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Description" "Power symbol creates a global label with name \"GND\" , ground"
+			(at 204.47 92.71 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(pin "1"
+			(uuid "11161bbc-3f21-42ee-8898-ed4b7cc865d7")
+		)
+		(instances
+			(project "SSI2131_Edge_Card"
+				(path "/b475957d-1040-465b-8a46-ce8870a10d46/ea36dd21-493f-4eca-99ba-43f0cfa1d6fe"
+					(reference "#PWR040")
+					(unit 1)
+				)
+			)
+		)
+	)
+	(symbol
+		(lib_id "power:-12V")
+		(at 195.58 95.25 180)
+		(unit 1)
+		(exclude_from_sim no)
+		(in_bom yes)
+		(on_board yes)
+		(dnp no)
+		(fields_autoplaced yes)
+		(uuid "60576dc4-4992-4ec6-9a40-bedeae5e0ac3")
+		(property "Reference" "#PWR039"
+			(at 195.58 91.44 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Value" "-12V"
+			(at 195.58 100.33 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Footprint" ""
+			(at 195.58 95.25 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Datasheet" ""
+			(at 195.58 95.25 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Description" "Power symbol creates a global label with name \"-12V\""
+			(at 195.58 95.25 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(pin "1"
+			(uuid "f678c206-0b8a-44d4-ba69-a1775b427032")
+		)
+		(instances
+			(project "SSI2131_Edge_Card"
+				(path "/b475957d-1040-465b-8a46-ce8870a10d46/ea36dd21-493f-4eca-99ba-43f0cfa1d6fe"
+					(reference "#PWR039")
 					(unit 1)
 				)
 			)
@@ -6489,7 +6766,7 @@
 		(dnp no)
 		(fields_autoplaced yes)
 		(uuid "65c8f88f-b067-446a-8a15-98377dc2a01a")
-		(property "Reference" "#PWR06"
+		(property "Reference" "#PWR032"
 			(at 83.82 132.08 0)
 			(effects
 				(font
@@ -6539,7 +6816,7 @@
 		(instances
 			(project "SSI2131_Edge_Card"
 				(path "/b475957d-1040-465b-8a46-ce8870a10d46/ea36dd21-493f-4eca-99ba-43f0cfa1d6fe"
-					(reference "#PWR06")
+					(reference "#PWR032")
 					(unit 1)
 				)
 			)
@@ -6555,7 +6832,7 @@
 		(dnp no)
 		(fields_autoplaced yes)
 		(uuid "6a2f9787-ee5c-4a25-9d3c-6b0634b7b044")
-		(property "Reference" "U2"
+		(property "Reference" "U5"
 			(at 233.68 81.2799 0)
 			(effects
 				(font
@@ -6627,7 +6904,7 @@
 		(instances
 			(project "SSI2131_Edge_Card"
 				(path "/b475957d-1040-465b-8a46-ce8870a10d46/ea36dd21-493f-4eca-99ba-43f0cfa1d6fe"
-					(reference "U2")
+					(reference "U5")
 					(unit 3)
 				)
 			)
@@ -6643,7 +6920,7 @@
 		(dnp no)
 		(fields_autoplaced yes)
 		(uuid "6adf68df-ddaa-4414-9ce8-448a44b18d7f")
-		(property "Reference" "U1"
+		(property "Reference" "U6"
 			(at 43.18 147.32 0)
 			(effects
 				(font
@@ -6731,7 +7008,7 @@
 		(instances
 			(project "SSI2131_Edge_Card"
 				(path "/b475957d-1040-465b-8a46-ce8870a10d46/ea36dd21-493f-4eca-99ba-43f0cfa1d6fe"
-					(reference "U1")
+					(reference "U6")
 					(unit 2)
 				)
 			)
@@ -6746,7 +7023,7 @@
 		(on_board yes)
 		(dnp no)
 		(uuid "6affd71e-9257-4f73-98e1-9bf181b105a5")
-		(property "Reference" "C5"
+		(property "Reference" "C9"
 			(at 93.98 19.558 90)
 			(effects
 				(font
@@ -6798,7 +7075,7 @@
 		(instances
 			(project "SSI2131_Edge_Card"
 				(path "/b475957d-1040-465b-8a46-ce8870a10d46/ea36dd21-493f-4eca-99ba-43f0cfa1d6fe"
-					(reference "C5")
+					(reference "C9")
 					(unit 1)
 				)
 			)
@@ -6922,7 +7199,7 @@
 		(on_board yes)
 		(dnp no)
 		(uuid "785e7c55-83c5-449e-98c4-1e9a5eaf27ed")
-		(property "Reference" "C13"
+		(property "Reference" "C12"
 			(at 214.63 68.834 90)
 			(effects
 				(font
@@ -6974,7 +7251,7 @@
 		(instances
 			(project "SSI2131_Edge_Card"
 				(path "/b475957d-1040-465b-8a46-ce8870a10d46/ea36dd21-493f-4eca-99ba-43f0cfa1d6fe"
-					(reference "C13")
+					(reference "C12")
 					(unit 1)
 				)
 			)
@@ -6990,7 +7267,7 @@
 		(dnp no)
 		(fields_autoplaced yes)
 		(uuid "7871a15e-6f8b-40c2-94a5-94211e05b3d0")
-		(property "Reference" "TP1"
+		(property "Reference" "TP2"
 			(at 144.78 65.2779 0)
 			(effects
 				(font
@@ -7041,7 +7318,7 @@
 		(instances
 			(project "SSI2131_Edge_Card"
 				(path "/b475957d-1040-465b-8a46-ce8870a10d46/ea36dd21-493f-4eca-99ba-43f0cfa1d6fe"
-					(reference "TP1")
+					(reference "TP2")
 					(unit 1)
 				)
 			)
@@ -7056,7 +7333,7 @@
 		(on_board yes)
 		(dnp no)
 		(uuid "78fffa2b-cb55-424a-95ff-5e4de607852f")
-		(property "Reference" "R15"
+		(property "Reference" "R35"
 			(at 82.55 151.13 90)
 			(effects
 				(font
@@ -7108,7 +7385,7 @@
 		(instances
 			(project "SSI2131_Edge_Card"
 				(path "/b475957d-1040-465b-8a46-ce8870a10d46/ea36dd21-493f-4eca-99ba-43f0cfa1d6fe"
-					(reference "R15")
+					(reference "R35")
 					(unit 1)
 				)
 			)
@@ -7124,7 +7401,7 @@
 		(dnp no)
 		(fields_autoplaced yes)
 		(uuid "7ec1fa9d-963e-43f1-b9ca-0a34cacf10db")
-		(property "Reference" "#PWR04"
+		(property "Reference" "#PWR036"
 			(at 80.01 161.29 0)
 			(effects
 				(font
@@ -7174,7 +7451,7 @@
 		(instances
 			(project "SSI2131_Edge_Card"
 				(path "/b475957d-1040-465b-8a46-ce8870a10d46/ea36dd21-493f-4eca-99ba-43f0cfa1d6fe"
-					(reference "#PWR04")
+					(reference "#PWR036")
 					(unit 1)
 				)
 			)
@@ -7190,7 +7467,7 @@
 		(dnp no)
 		(fields_autoplaced yes)
 		(uuid "870e1a45-685f-4c48-85e3-a79aaacc21cc")
-		(property "Reference" "#PWR09"
+		(property "Reference" "#PWR019"
 			(at 109.22 78.74 0)
 			(effects
 				(font
@@ -7240,7 +7517,7 @@
 		(instances
 			(project "SSI2131_Edge_Card"
 				(path "/b475957d-1040-465b-8a46-ce8870a10d46/ea36dd21-493f-4eca-99ba-43f0cfa1d6fe"
-					(reference "#PWR09")
+					(reference "#PWR019")
 					(unit 1)
 				)
 			)
@@ -7256,7 +7533,7 @@
 		(dnp no)
 		(fields_autoplaced yes)
 		(uuid "89d4547f-88ee-4820-8311-0ebc4ac6e2b8")
-		(property "Reference" "R18"
+		(property "Reference" "R26"
 			(at 110.49 132.0799 0)
 			(effects
 				(font
@@ -7310,7 +7587,7 @@
 		(instances
 			(project "SSI2131_Edge_Card"
 				(path "/b475957d-1040-465b-8a46-ce8870a10d46/ea36dd21-493f-4eca-99ba-43f0cfa1d6fe"
-					(reference "R18")
+					(reference "R26")
 					(unit 1)
 				)
 			)
@@ -7342,7 +7619,7 @@
 				)
 			)
 		)
-		(property "Footprint" ""
+		(property "Footprint" "Package_SO:SOIC-8_3.9x4.9mm_P1.27mm"
 			(at 185.42 144.78 0)
 			(effects
 				(font
@@ -7370,28 +7647,28 @@
 			)
 		)
 		(pin "2"
-			(uuid "06c2a59f-9675-4e4d-9702-69fb35526192")
+			(uuid "06c2a59f-9675-4e4d-9702-69fb35526193")
 		)
 		(pin "1"
-			(uuid "d21417c0-a708-4a91-8858-41761b482e90")
+			(uuid "d21417c0-a708-4a91-8858-41761b482e91")
 		)
 		(pin "4"
-			(uuid "495a54ad-f876-4ac3-9cf1-6aa8cf1f91e5")
+			(uuid "495a54ad-f876-4ac3-9cf1-6aa8cf1f91e6")
 		)
 		(pin "7"
-			(uuid "09c7997a-1b8f-4621-a578-7faa153c8a83")
+			(uuid "09c7997a-1b8f-4621-a578-7faa153c8a84")
 		)
 		(pin "8"
-			(uuid "52c6671c-4664-40b3-bfb8-1378c57287e2")
+			(uuid "52c6671c-4664-40b3-bfb8-1378c57287e3")
 		)
 		(pin "3"
-			(uuid "eb707a71-de3d-4a0d-82cd-28c4efd62fb6")
+			(uuid "eb707a71-de3d-4a0d-82cd-28c4efd62fb7")
 		)
 		(pin "6"
-			(uuid "1c33dec8-3cb2-4346-8f47-b3a540f27024")
+			(uuid "1c33dec8-3cb2-4346-8f47-b3a540f27025")
 		)
 		(pin "5"
-			(uuid "f9619d7c-ac58-4190-b343-b75cfdc4073b")
+			(uuid "f9619d7c-ac58-4190-b343-b75cfdc4073c")
 		)
 		(instances
 			(project ""
@@ -7411,7 +7688,7 @@
 		(on_board yes)
 		(dnp no)
 		(uuid "901402bc-50a2-48b6-8972-be0d292b7d55")
-		(property "Reference" "C1"
+		(property "Reference" "C10"
 			(at 54.61 58.42 90)
 			(effects
 				(font
@@ -7463,7 +7740,7 @@
 		(instances
 			(project "SSI2131_Edge_Card"
 				(path "/b475957d-1040-465b-8a46-ce8870a10d46/ea36dd21-493f-4eca-99ba-43f0cfa1d6fe"
-					(reference "C1")
+					(reference "C10")
 					(unit 1)
 				)
 			)
@@ -7478,7 +7755,7 @@
 		(on_board yes)
 		(dnp no)
 		(uuid "919352f5-7b58-4dd0-916a-4be7ae67c7a2")
-		(property "Reference" "R35"
+		(property "Reference" "R27"
 			(at 185.42 129.54 90)
 			(effects
 				(font
@@ -7530,7 +7807,7 @@
 		(instances
 			(project "SSI2131_Edge_Card"
 				(path "/b475957d-1040-465b-8a46-ce8870a10d46/ea36dd21-493f-4eca-99ba-43f0cfa1d6fe"
-					(reference "R35")
+					(reference "R27")
 					(unit 1)
 				)
 			)
@@ -7631,7 +7908,7 @@
 		(on_board yes)
 		(dnp no)
 		(uuid "9b9ff38c-bd85-414d-a559-cb0664ea428a")
-		(property "Reference" "R14"
+		(property "Reference" "R22"
 			(at 81.28 73.66 90)
 			(effects
 				(font
@@ -7683,7 +7960,7 @@
 		(instances
 			(project "SSI2131_Edge_Card"
 				(path "/b475957d-1040-465b-8a46-ce8870a10d46/ea36dd21-493f-4eca-99ba-43f0cfa1d6fe"
-					(reference "R14")
+					(reference "R22")
 					(unit 1)
 				)
 			)
@@ -7699,7 +7976,7 @@
 		(dnp no)
 		(fields_autoplaced yes)
 		(uuid "a2b4bd01-66ef-4fdb-965b-4ec6502aeeda")
-		(property "Reference" "#PWR023"
+		(property "Reference" "#PWR030"
 			(at 232.41 91.44 0)
 			(effects
 				(font
@@ -7749,7 +8026,7 @@
 		(instances
 			(project "SSI2131_Edge_Card"
 				(path "/b475957d-1040-465b-8a46-ce8870a10d46/ea36dd21-493f-4eca-99ba-43f0cfa1d6fe"
-					(reference "#PWR023")
+					(reference "#PWR030")
 					(unit 1)
 				)
 			)
@@ -7765,7 +8042,7 @@
 		(on_board yes)
 		(dnp no)
 		(uuid "aaeb61b5-d02f-4f70-b07e-f2723b543491")
-		(property "Reference" "U2"
+		(property "Reference" "U5"
 			(at 90.17 55.88 0)
 			(effects
 				(font
@@ -7835,7 +8112,7 @@
 		(instances
 			(project "SSI2131_Edge_Card"
 				(path "/b475957d-1040-465b-8a46-ce8870a10d46/ea36dd21-493f-4eca-99ba-43f0cfa1d6fe"
-					(reference "U2")
+					(reference "U5")
 					(unit 1)
 				)
 			)
@@ -7952,6 +8229,72 @@
 		)
 	)
 	(symbol
+		(lib_id "power:GND")
+		(at 204.47 72.39 0)
+		(unit 1)
+		(exclude_from_sim no)
+		(in_bom yes)
+		(on_board yes)
+		(dnp no)
+		(fields_autoplaced yes)
+		(uuid "accc7259-784a-41c8-a995-b1fcdb07326b")
+		(property "Reference" "#PWR041"
+			(at 204.47 78.74 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Value" "GND"
+			(at 204.47 77.47 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Footprint" ""
+			(at 204.47 72.39 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Datasheet" ""
+			(at 204.47 72.39 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Description" "Power symbol creates a global label with name \"GND\" , ground"
+			(at 204.47 72.39 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(pin "1"
+			(uuid "0a188874-6acf-49ee-83cc-6d24704c2a77")
+		)
+		(instances
+			(project "SSI2131_Edge_Card"
+				(path "/b475957d-1040-465b-8a46-ce8870a10d46/ea36dd21-493f-4eca-99ba-43f0cfa1d6fe"
+					(reference "#PWR041")
+					(unit 1)
+				)
+			)
+		)
+	)
+	(symbol
 		(lib_id "Device:R")
 		(at 72.39 64.77 90)
 		(unit 1)
@@ -7960,7 +8303,7 @@
 		(on_board yes)
 		(dnp no)
 		(uuid "b1fa3576-2304-405f-bf06-338ff5ed4c13")
-		(property "Reference" "R7"
+		(property "Reference" "R20"
 			(at 72.39 60.96 90)
 			(effects
 				(font
@@ -8012,7 +8355,7 @@
 		(instances
 			(project "SSI2131_Edge_Card"
 				(path "/b475957d-1040-465b-8a46-ce8870a10d46/ea36dd21-493f-4eca-99ba-43f0cfa1d6fe"
-					(reference "R7")
+					(reference "R20")
 					(unit 1)
 				)
 			)
@@ -8027,7 +8370,7 @@
 		(on_board yes)
 		(dnp no)
 		(uuid "be2ef29e-c641-48d6-b305-2ea35c41a498")
-		(property "Reference" "R21"
+		(property "Reference" "R29"
 			(at 120.65 133.604 90)
 			(effects
 				(font
@@ -8079,7 +8422,7 @@
 		(instances
 			(project "SSI2131_Edge_Card"
 				(path "/b475957d-1040-465b-8a46-ce8870a10d46/ea36dd21-493f-4eca-99ba-43f0cfa1d6fe"
-					(reference "R21")
+					(reference "R29")
 					(unit 1)
 				)
 			)
@@ -8095,7 +8438,7 @@
 		(dnp no)
 		(fields_autoplaced yes)
 		(uuid "c6fe2a08-6d52-473d-bc4e-4ca3804fcc3b")
-		(property "Reference" "#PWR030"
+		(property "Reference" "#PWR014"
 			(at 271.78 67.31 0)
 			(effects
 				(font
@@ -8145,7 +8488,7 @@
 		(instances
 			(project "SSI2131_Edge_Card"
 				(path "/b475957d-1040-465b-8a46-ce8870a10d46/ea36dd21-493f-4eca-99ba-43f0cfa1d6fe"
-					(reference "#PWR030")
+					(reference "#PWR014")
 					(unit 1)
 				)
 			)
@@ -8153,7 +8496,7 @@
 	)
 	(symbol
 		(lib_id "4xxx:4066")
-		(at 146.05 99.06 0)
+		(at 237.49 31.75 0)
 		(unit 3)
 		(exclude_from_sim no)
 		(in_bom yes)
@@ -8161,8 +8504,8 @@
 		(dnp no)
 		(fields_autoplaced yes)
 		(uuid "cdc4049e-1740-426b-8c1d-f9b34575f9e9")
-		(property "Reference" "U1"
-			(at 146.05 104.14 0)
+		(property "Reference" "U6"
+			(at 237.49 36.83 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -8170,7 +8513,7 @@
 			)
 		)
 		(property "Value" "CD4066BM"
-			(at 146.05 106.68 0)
+			(at 237.49 39.37 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -8178,7 +8521,7 @@
 			)
 		)
 		(property "Footprint" "Package_SO:SOIC-14_3.9x8.7mm_P1.27mm"
-			(at 146.05 99.06 0)
+			(at 237.49 31.75 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -8187,7 +8530,7 @@
 			)
 		)
 		(property "Datasheet" "http://www.ti.com/lit/ds/symlink/cd4066b.pdf"
-			(at 146.05 99.06 0)
+			(at 237.49 31.75 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -8196,7 +8539,7 @@
 			)
 		)
 		(property "Description" "Quad Analog Switches"
-			(at 146.05 99.06 0)
+			(at 237.49 31.75 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -8249,7 +8592,7 @@
 		(instances
 			(project "SSI2131_Edge_Card"
 				(path "/b475957d-1040-465b-8a46-ce8870a10d46/ea36dd21-493f-4eca-99ba-43f0cfa1d6fe"
-					(reference "U1")
+					(reference "U6")
 					(unit 3)
 				)
 			)
@@ -8265,7 +8608,7 @@
 		(dnp no)
 		(fields_autoplaced yes)
 		(uuid "d82314a8-86aa-4f65-9ca5-1918667fc1dd")
-		(property "Reference" "#PWR026"
+		(property "Reference" "#PWR018"
 			(at 247.65 73.66 0)
 			(effects
 				(font
@@ -8315,7 +8658,7 @@
 		(instances
 			(project "SSI2131_Edge_Card"
 				(path "/b475957d-1040-465b-8a46-ce8870a10d46/ea36dd21-493f-4eca-99ba-43f0cfa1d6fe"
-					(reference "#PWR026")
+					(reference "#PWR018")
 					(unit 1)
 				)
 			)
@@ -8331,7 +8674,7 @@
 		(dnp no)
 		(fields_autoplaced yes)
 		(uuid "d89ef5d5-40b2-4078-825c-5d7aa55c47a1")
-		(property "Reference" "#PWR05"
+		(property "Reference" "#PWR024"
 			(at 85.09 83.82 0)
 			(effects
 				(font
@@ -8381,7 +8724,7 @@
 		(instances
 			(project "SSI2131_Edge_Card"
 				(path "/b475957d-1040-465b-8a46-ce8870a10d46/ea36dd21-493f-4eca-99ba-43f0cfa1d6fe"
-					(reference "#PWR05")
+					(reference "#PWR024")
 					(unit 1)
 				)
 			)
@@ -8506,7 +8849,7 @@
 		(on_board yes)
 		(dnp no)
 		(uuid "d99e5999-f258-471b-9050-b85b2298b3f3")
-		(property "Reference" "R31"
+		(property "Reference" "R33"
 			(at 134.62 151.13 90)
 			(effects
 				(font
@@ -8558,7 +8901,7 @@
 		(instances
 			(project "SSI2131_Edge_Card"
 				(path "/b475957d-1040-465b-8a46-ce8870a10d46/ea36dd21-493f-4eca-99ba-43f0cfa1d6fe"
-					(reference "R31")
+					(reference "R33")
 					(unit 1)
 				)
 			)
@@ -8573,7 +8916,7 @@
 		(on_board yes)
 		(dnp no)
 		(uuid "dd47a050-d12d-402e-90ad-a613da419ce1")
-		(property "Reference" "C17"
+		(property "Reference" "C14"
 			(at 251.46 68.834 90)
 			(effects
 				(font
@@ -8625,7 +8968,7 @@
 		(instances
 			(project "SSI2131_Edge_Card"
 				(path "/b475957d-1040-465b-8a46-ce8870a10d46/ea36dd21-493f-4eca-99ba-43f0cfa1d6fe"
-					(reference "C17")
+					(reference "C14")
 					(unit 1)
 				)
 			)
@@ -8640,7 +8983,7 @@
 		(on_board yes)
 		(dnp no)
 		(uuid "dd9b3ba4-b25b-48be-8de2-91533a4fe7fb")
-		(property "Reference" "C14"
+		(property "Reference" "C15"
 			(at 214.63 89.154 90)
 			(effects
 				(font
@@ -8692,7 +9035,7 @@
 		(instances
 			(project "SSI2131_Edge_Card"
 				(path "/b475957d-1040-465b-8a46-ce8870a10d46/ea36dd21-493f-4eca-99ba-43f0cfa1d6fe"
-					(reference "C14")
+					(reference "C15")
 					(unit 1)
 				)
 			)
@@ -8998,6 +9341,73 @@
 	)
 	(symbol
 		(lib_id "Device:C")
+		(at 199.39 72.39 90)
+		(unit 1)
+		(exclude_from_sim no)
+		(in_bom yes)
+		(on_board yes)
+		(dnp no)
+		(uuid "ea721d0d-2328-4982-b3b9-b66ec33ca976")
+		(property "Reference" "C20"
+			(at 199.39 68.834 90)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Value" "0.1uf"
+			(at 199.39 75.946 90)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Footprint" "Capacitor_SMD:C_0603_1608Metric"
+			(at 203.2 71.4248 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Datasheet" "~"
+			(at 199.39 72.39 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Description" "Unpolarized capacitor"
+			(at 199.39 72.39 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(pin "1"
+			(uuid "f0d4acb5-fad6-4ac5-9767-551bf2dbdf7f")
+		)
+		(pin "2"
+			(uuid "f313a015-c66b-4c88-873c-ffc607f26172")
+		)
+		(instances
+			(project "SSI2131_Edge_Card"
+				(path "/b475957d-1040-465b-8a46-ce8870a10d46/ea36dd21-493f-4eca-99ba-43f0cfa1d6fe"
+					(reference "C20")
+					(unit 1)
+				)
+			)
+		)
+	)
+	(symbol
+		(lib_id "Device:C")
 		(at 275.59 66.04 90)
 		(unit 1)
 		(exclude_from_sim no)
@@ -9005,7 +9415,7 @@
 		(on_board yes)
 		(dnp no)
 		(uuid "eb30f3a7-77c3-42a9-a22e-9ff10c54b4fc")
-		(property "Reference" "C19"
+		(property "Reference" "C11"
 			(at 275.59 62.484 90)
 			(effects
 				(font
@@ -9057,7 +9467,7 @@
 		(instances
 			(project "SSI2131_Edge_Card"
 				(path "/b475957d-1040-465b-8a46-ce8870a10d46/ea36dd21-493f-4eca-99ba-43f0cfa1d6fe"
-					(reference "C19")
+					(reference "C11")
 					(unit 1)
 				)
 			)
@@ -9073,7 +9483,7 @@
 		(dnp no)
 		(fields_autoplaced yes)
 		(uuid "ec7d4e44-8ad5-4999-9e17-085421b57c54")
-		(property "Reference" "#PWR02"
+		(property "Reference" "#PWR023"
 			(at 78.74 83.82 0)
 			(effects
 				(font
@@ -9123,7 +9533,7 @@
 		(instances
 			(project "SSI2131_Edge_Card"
 				(path "/b475957d-1040-465b-8a46-ce8870a10d46/ea36dd21-493f-4eca-99ba-43f0cfa1d6fe"
-					(reference "#PWR02")
+					(reference "#PWR023")
 					(unit 1)
 				)
 			)
@@ -9139,7 +9549,7 @@
 		(dnp no)
 		(fields_autoplaced yes)
 		(uuid "ecd6d3cb-69e6-4256-ab4e-d44ab9f5dfa4")
-		(property "Reference" "#PWR021"
+		(property "Reference" "#PWR025"
 			(at 219.71 99.06 0)
 			(effects
 				(font
@@ -9189,7 +9599,7 @@
 		(instances
 			(project "SSI2131_Edge_Card"
 				(path "/b475957d-1040-465b-8a46-ce8870a10d46/ea36dd21-493f-4eca-99ba-43f0cfa1d6fe"
-					(reference "#PWR021")
+					(reference "#PWR025")
 					(unit 1)
 				)
 			)
@@ -9205,7 +9615,7 @@
 		(dnp no)
 		(fields_autoplaced yes)
 		(uuid "ecde0e64-e1a4-4120-9bad-fca3e19270d0")
-		(property "Reference" "U1"
+		(property "Reference" "U6"
 			(at 41.91 69.85 0)
 			(effects
 				(font
@@ -9293,7 +9703,7 @@
 		(instances
 			(project "SSI2131_Edge_Card"
 				(path "/b475957d-1040-465b-8a46-ce8870a10d46/ea36dd21-493f-4eca-99ba-43f0cfa1d6fe"
-					(reference "U1")
+					(reference "U6")
 					(unit 1)
 				)
 			)
@@ -9309,7 +9719,7 @@
 		(dnp no)
 		(fields_autoplaced yes)
 		(uuid "ed7b1a42-fba8-4fe3-b2ab-2e5f00a97d8e")
-		(property "Reference" "#PWR03"
+		(property "Reference" "#PWR013"
 			(at 82.55 54.61 0)
 			(effects
 				(font
@@ -9359,7 +9769,7 @@
 		(instances
 			(project "SSI2131_Edge_Card"
 				(path "/b475957d-1040-465b-8a46-ce8870a10d46/ea36dd21-493f-4eca-99ba-43f0cfa1d6fe"
-					(reference "#PWR03")
+					(reference "#PWR013")
 					(unit 1)
 				)
 			)
@@ -9374,7 +9784,7 @@
 		(on_board yes)
 		(dnp no)
 		(uuid "edc53e58-d787-4b1e-bee1-e773d1db84f4")
-		(property "Reference" "R2"
+		(property "Reference" "R19"
 			(at 63.5 60.96 90)
 			(effects
 				(font
@@ -9426,7 +9836,7 @@
 		(instances
 			(project "SSI2131_Edge_Card"
 				(path "/b475957d-1040-465b-8a46-ce8870a10d46/ea36dd21-493f-4eca-99ba-43f0cfa1d6fe"
-					(reference "R2")
+					(reference "R19")
 					(unit 1)
 				)
 			)
@@ -9434,7 +9844,7 @@
 	)
 	(symbol
 		(lib_id "Amplifier_Operational:OPA1678")
-		(at 201.93 83.82 0)
+		(at 198.12 82.55 0)
 		(unit 3)
 		(exclude_from_sim no)
 		(in_bom yes)
@@ -9443,7 +9853,7 @@
 		(fields_autoplaced yes)
 		(uuid "eeb8e80b-a0ef-450c-b2e4-b35e8d72305e")
 		(property "Reference" "U8"
-			(at 200.66 82.5499 0)
+			(at 196.85 81.2799 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -9452,7 +9862,7 @@
 			)
 		)
 		(property "Value" "OPA1678"
-			(at 200.66 85.0899 0)
+			(at 196.85 83.8199 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -9460,8 +9870,8 @@
 				(justify left)
 			)
 		)
-		(property "Footprint" ""
-			(at 201.93 83.82 0)
+		(property "Footprint" "Package_SO:SOIC-8_3.9x4.9mm_P1.27mm"
+			(at 198.12 82.55 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -9470,7 +9880,7 @@
 			)
 		)
 		(property "Datasheet" "http://www.ti.com/lit/ds/symlink/opa1678.pdf"
-			(at 201.93 83.82 0)
+			(at 198.12 82.55 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -9479,7 +9889,7 @@
 			)
 		)
 		(property "Description" "Low-Distortion Audio Operational Amplifiers, SOIC-8/VSSOP-8"
-			(at 201.93 83.82 0)
+			(at 198.12 82.55 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -9488,28 +9898,28 @@
 			)
 		)
 		(pin "2"
-			(uuid "06c2a59f-9675-4e4d-9702-69fb35526192")
+			(uuid "06c2a59f-9675-4e4d-9702-69fb35526194")
 		)
 		(pin "1"
-			(uuid "d21417c0-a708-4a91-8858-41761b482e90")
+			(uuid "d21417c0-a708-4a91-8858-41761b482e92")
 		)
 		(pin "4"
-			(uuid "495a54ad-f876-4ac3-9cf1-6aa8cf1f91e5")
+			(uuid "495a54ad-f876-4ac3-9cf1-6aa8cf1f91e7")
 		)
 		(pin "7"
-			(uuid "09c7997a-1b8f-4621-a578-7faa153c8a83")
+			(uuid "09c7997a-1b8f-4621-a578-7faa153c8a85")
 		)
 		(pin "8"
-			(uuid "52c6671c-4664-40b3-bfb8-1378c57287e2")
+			(uuid "52c6671c-4664-40b3-bfb8-1378c57287e4")
 		)
 		(pin "3"
-			(uuid "eb707a71-de3d-4a0d-82cd-28c4efd62fb6")
+			(uuid "eb707a71-de3d-4a0d-82cd-28c4efd62fb8")
 		)
 		(pin "6"
-			(uuid "1c33dec8-3cb2-4346-8f47-b3a540f27024")
+			(uuid "1c33dec8-3cb2-4346-8f47-b3a540f27026")
 		)
 		(pin "5"
-			(uuid "f9619d7c-ac58-4190-b343-b75cfdc4073b")
+			(uuid "f9619d7c-ac58-4190-b343-b75cfdc4073d")
 		)
 		(instances
 			(project ""
@@ -9530,7 +9940,7 @@
 		(dnp no)
 		(fields_autoplaced yes)
 		(uuid "ef4247e6-e807-428c-8bf2-86294533306c")
-		(property "Reference" "#PWR018"
+		(property "Reference" "#PWR016"
 			(at 210.82 73.66 0)
 			(effects
 				(font
@@ -9580,7 +9990,7 @@
 		(instances
 			(project "SSI2131_Edge_Card"
 				(path "/b475957d-1040-465b-8a46-ce8870a10d46/ea36dd21-493f-4eca-99ba-43f0cfa1d6fe"
-					(reference "#PWR018")
+					(reference "#PWR016")
 					(unit 1)
 				)
 			)
@@ -9596,7 +10006,7 @@
 		(dnp no)
 		(fields_autoplaced yes)
 		(uuid "f1ef453c-50a5-418c-a8b9-de6af0e620fc")
-		(property "Reference" "#PWR08"
+		(property "Reference" "#PWR037"
 			(at 86.36 161.29 0)
 			(effects
 				(font
@@ -9646,7 +10056,7 @@
 		(instances
 			(project "SSI2131_Edge_Card"
 				(path "/b475957d-1040-465b-8a46-ce8870a10d46/ea36dd21-493f-4eca-99ba-43f0cfa1d6fe"
-					(reference "#PWR08")
+					(reference "#PWR037")
 					(unit 1)
 				)
 			)
@@ -9662,7 +10072,7 @@
 		(dnp no)
 		(fields_autoplaced yes)
 		(uuid "f3d52547-6ca3-4255-8ac8-6e4de2200e0c")
-		(property "Reference" "U1"
+		(property "Reference" "U6"
 			(at 278.13 80.0099 0)
 			(effects
 				(font
@@ -9752,7 +10162,7 @@
 		(instances
 			(project "SSI2131_Edge_Card"
 				(path "/b475957d-1040-465b-8a46-ce8870a10d46/ea36dd21-493f-4eca-99ba-43f0cfa1d6fe"
-					(reference "U1")
+					(reference "U6")
 					(unit 5)
 				)
 			)
@@ -9768,7 +10178,7 @@
 		(dnp no)
 		(fields_autoplaced yes)
 		(uuid "f959435e-05bc-446a-8049-c8898cbf3713")
-		(property "Reference" "#PWR031"
+		(property "Reference" "#PWR028"
 			(at 271.78 100.33 0)
 			(effects
 				(font
@@ -9818,7 +10228,7 @@
 		(instances
 			(project "SSI2131_Edge_Card"
 				(path "/b475957d-1040-465b-8a46-ce8870a10d46/ea36dd21-493f-4eca-99ba-43f0cfa1d6fe"
-					(reference "#PWR031")
+					(reference "#PWR028")
 					(unit 1)
 				)
 			)
@@ -9834,7 +10244,7 @@
 		(dnp no)
 		(fields_autoplaced yes)
 		(uuid "fc53405e-36ba-4a3a-bf73-97b2205a33d3")
-		(property "Reference" "#PWR010"
+		(property "Reference" "#PWR035"
 			(at 113.03 156.21 0)
 			(effects
 				(font
@@ -9884,7 +10294,73 @@
 		(instances
 			(project "SSI2131_Edge_Card"
 				(path "/b475957d-1040-465b-8a46-ce8870a10d46/ea36dd21-493f-4eca-99ba-43f0cfa1d6fe"
-					(reference "#PWR010")
+					(reference "#PWR035")
+					(unit 1)
+				)
+			)
+		)
+	)
+	(symbol
+		(lib_id "power:+5V")
+		(at 195.58 69.85 0)
+		(unit 1)
+		(exclude_from_sim no)
+		(in_bom yes)
+		(on_board yes)
+		(dnp no)
+		(fields_autoplaced yes)
+		(uuid "fd00c050-a765-4af9-ab26-62dc33d4afb6")
+		(property "Reference" "#PWR038"
+			(at 195.58 73.66 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Value" "+5V"
+			(at 195.58 64.77 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Footprint" ""
+			(at 195.58 69.85 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Datasheet" ""
+			(at 195.58 69.85 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Description" "Power symbol creates a global label with name \"+5V\""
+			(at 195.58 69.85 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(pin "1"
+			(uuid "654990c8-8370-48bf-b62c-41ff465b6996")
+		)
+		(instances
+			(project "SSI2131_Edge_Card"
+				(path "/b475957d-1040-465b-8a46-ce8870a10d46/ea36dd21-493f-4eca-99ba-43f0cfa1d6fe"
+					(reference "#PWR038")
 					(unit 1)
 				)
 			)

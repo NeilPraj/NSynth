@@ -617,6 +617,14 @@
     [
       "ea36dd21-493f-4eca-99ba-43f0cfa1d6fe",
       "Pitch and PWM modulation"
+    ],
+    [
+      "e1cded8b-ea12-4978-bf2f-fda21251b40d",
+      "OSC A"
+    ],
+    [
+      "4f7999be-3536-4d74-9ad4-7fcacb406231",
+      "OSC B"
     ]
   ],
   "text_variables": {}
