@@ -613,6 +613,10 @@
     [
       "b475957d-1040-465b-8a46-ce8870a10d46",
       "Root"
+    ],
+    [
+      "ea36dd21-493f-4eca-99ba-43f0cfa1d6fe",
+      "Pitch and PWM modulation"
     ]
   ],
   "text_variables": {}
