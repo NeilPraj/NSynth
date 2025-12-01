@@ -4549,7 +4549,7 @@
 		)
 		(uuid "cf681b29-d840-4289-83aa-2169b9741e7b")
 	)
-	(hierarchical_label "PWM_MOD_EN_B"
+	(hierarchical_label "PWM_MOD_EN_A"
 		(shape input)
 		(at 226.06 234.95 180)
 		(effects
