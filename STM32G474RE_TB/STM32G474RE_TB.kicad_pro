@@ -613,6 +613,10 @@
     [
       "c8ed293a-fe87-496b-9ed5-e9e5575d3b65",
       "Root"
+    ],
+    [
+      "0769fcef-6a0c-45f8-937e-32b287322a02",
+      "SPI1_DACs"
     ]
   ],
   "text_variables": {}
