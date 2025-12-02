@@ -2,7 +2,7 @@
 	(version 20250114)
 	(generator "eeschema")
 	(generator_version "9.0")
-	(uuid "c184d929-1c11-41b4-a107-d2ec305d538e")
+	(uuid "8f2a8ca3-8591-49d5-a994-e398504f1d04")
 	(paper "A4")
 	(lib_symbols
 		(symbol "Amplifier_Operational:OPA1678"
@@ -614,184 +614,6 @@
 					(at 0 -3.81 90)
 					(length 2.794)
 					(name "~"
-						(effects
-							(font
-								(size 1.27 1.27)
-							)
-						)
-					)
-					(number "2"
-						(effects
-							(font
-								(size 1.27 1.27)
-							)
-						)
-					)
-				)
-			)
-			(embedded_fonts no)
-		)
-		(symbol "Reference_Voltage:REF3025"
-			(pin_names
-				(offset 0.254)
-			)
-			(exclude_from_sim no)
-			(in_bom yes)
-			(on_board yes)
-			(property "Reference" "U"
-				(at 0 6.35 0)
-				(effects
-					(font
-						(size 1.27 1.27)
-					)
-				)
-			)
-			(property "Value" "REF3025"
-				(at 2.54 -6.35 0)
-				(effects
-					(font
-						(size 1.27 1.27)
-						(italic yes)
-					)
-				)
-			)
-			(property "Footprint" "Package_TO_SOT_SMD:SOT-23"
-				(at 0 -11.43 0)
-				(effects
-					(font
-						(size 1.27 1.27)
-						(italic yes)
-					)
-					(hide yes)
-				)
-			)
-			(property "Datasheet" "http://www.ti.com/lit/ds/symlink/ref3033.pdf"
-				(at 2.54 -8.89 0)
-				(effects
-					(font
-						(size 1.27 1.27)
-						(italic yes)
-					)
-					(hide yes)
-				)
-			)
-			(property "Description" "2.500V 50-ppm/°C Max, 50-μA, CMOS Voltage Reference, SOT-23-3"
-				(at 0 0 0)
-				(effects
-					(font
-						(size 1.27 1.27)
-					)
-					(hide yes)
-				)
-			)
-			(property "ki_keywords" "voltage reference"
-				(at 0 0 0)
-				(effects
-					(font
-						(size 1.27 1.27)
-					)
-					(hide yes)
-				)
-			)
-			(property "ki_fp_filters" "SOT?23*"
-				(at 0 0 0)
-				(effects
-					(font
-						(size 1.27 1.27)
-					)
-					(hide yes)
-				)
-			)
-			(symbol "REF3025_0_1"
-				(rectangle
-					(start -5.08 5.08)
-					(end 5.08 -5.08)
-					(stroke
-						(width 0.254)
-						(type default)
-					)
-					(fill
-						(type background)
-					)
-				)
-				(polyline
-					(pts
-						(xy -0.889 -0.635) (xy 0.381 -0.635) (xy -0.254 0.635) (xy -0.889 -0.635)
-					)
-					(stroke
-						(width 0)
-						(type default)
-					)
-					(fill
-						(type none)
-					)
-				)
-				(polyline
-					(pts
-						(xy -0.254 1.905) (xy -0.254 -1.905)
-					)
-					(stroke
-						(width 0)
-						(type default)
-					)
-					(fill
-						(type none)
-					)
-				)
-				(polyline
-					(pts
-						(xy 0.381 1.016) (xy 0.381 0.635) (xy -0.889 0.635) (xy -0.889 0.254)
-					)
-					(stroke
-						(width 0)
-						(type default)
-					)
-					(fill
-						(type none)
-					)
-				)
-			)
-			(symbol "REF3025_1_1"
-				(pin power_in line
-					(at -2.54 7.62 270)
-					(length 2.54)
-					(name "IN"
-						(effects
-							(font
-								(size 1.27 1.27)
-							)
-						)
-					)
-					(number "1"
-						(effects
-							(font
-								(size 1.27 1.27)
-							)
-						)
-					)
-				)
-				(pin power_in line
-					(at -2.54 -7.62 90)
-					(length 2.54)
-					(name "GND"
-						(effects
-							(font
-								(size 1.27 1.27)
-							)
-						)
-					)
-					(number "3"
-						(effects
-							(font
-								(size 1.27 1.27)
-							)
-						)
-					)
-				)
-				(pin power_out line
-					(at 7.62 0 180)
-					(length 2.54)
-					(name "OUT"
 						(effects
 							(font
 								(size 1.27 1.27)
@@ -1442,12 +1264,6 @@
 		(uuid "56aeaf87-2242-46b7-9ece-8688abccc5b2")
 	)
 	(junction
-		(at 215.9 36.83)
-		(diameter 0)
-		(color 0 0 0 0)
-		(uuid "5c8aa3b6-0a48-4d9a-a573-a764af89cdca")
-	)
-	(junction
 		(at 199.39 102.87)
 		(diameter 0)
 		(color 0 0 0 0)
@@ -1851,26 +1667,6 @@
 	)
 	(wire
 		(pts
-			(xy 215.9 36.83) (xy 215.9 41.91)
-		)
-		(stroke
-			(width 0)
-			(type default)
-		)
-		(uuid "9acb47fb-dbe1-496f-a661-e296ba5e72fb")
-	)
-	(wire
-		(pts
-			(xy 125.73 165.1) (xy 101.6 165.1)
-		)
-		(stroke
-			(width 0)
-			(type default)
-		)
-		(uuid "9e0ec4e2-279b-47bc-8665-7b37257a9dba")
-	)
-	(wire
-		(pts
 			(xy 199.39 114.3) (xy 199.39 113.03)
 		)
 		(stroke
@@ -1898,16 +1694,6 @@
 			(type default)
 		)
 		(uuid "a9e969f5-10cd-4cf9-a065-6795d484ee33")
-	)
-	(wire
-		(pts
-			(xy 226.06 49.53) (xy 231.14 49.53)
-		)
-		(stroke
-			(width 0)
-			(type default)
-		)
-		(uuid "abab8126-3425-4a23-af23-41b5bf48ee88")
 	)
 	(wire
 		(pts
@@ -2081,16 +1867,6 @@
 	)
 	(wire
 		(pts
-			(xy 215.9 34.29) (xy 215.9 36.83)
-		)
-		(stroke
-			(width 0)
-			(type default)
-		)
-		(uuid "d6fa5e6f-c1c4-4ca8-bd05-3312f1fff084")
-	)
-	(wire
-		(pts
 			(xy 248.92 86.36) (xy 248.92 82.55)
 		)
 		(stroke
@@ -2181,6 +1957,16 @@
 	)
 	(wire
 		(pts
+			(xy 101.6 165.1) (xy 125.73 165.1)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "f341476a-36fb-4379-8d95-8c80e541be86")
+	)
+	(wire
+		(pts
 			(xy 140.97 167.64) (xy 140.97 173.99)
 		)
 		(stroke
@@ -2191,16 +1977,6 @@
 	)
 	(wire
 		(pts
-			(xy 215.9 58.42) (xy 215.9 57.15)
-		)
-		(stroke
-			(width 0)
-			(type default)
-		)
-		(uuid "f8e45b1b-c021-4a4b-ade1-1caffe128e9c")
-	)
-	(wire
-		(pts
 			(xy 199.39 102.87) (xy 212.09 102.87)
 		)
 		(stroke
@@ -2208,6 +1984,46 @@
 			(type default)
 		)
 		(uuid "fb708e36-cabc-48ae-a5c3-7e2e2745fc68")
+	)
+	(label "DAC1_out_nobuf"
+		(at 101.6 50.8 0)
+		(effects
+			(font
+				(size 1.27 1.27)
+			)
+			(justify left bottom)
+		)
+		(uuid "8c1ba894-9176-4a65-8bf9-efb88af1b593")
+	)
+	(label "DAC4_out_nobuf"
+		(at 101.6 165.1 0)
+		(effects
+			(font
+				(size 1.27 1.27)
+			)
+			(justify left bottom)
+		)
+		(uuid "a6ee1e4f-e2b2-48a5-b429-942f6898f814")
+	)
+	(label "DAC3_out_nobuf"
+		(at 101.6 127 0)
+		(effects
+			(font
+				(size 1.27 1.27)
+			)
+			(justify left bottom)
+		)
+		(uuid "aa6477cd-bc94-420b-a5b5-0192f0a3a4f1")
+	)
+	(label "DAC2_out_nobuf"
+		(at 101.6 88.9 0)
+		(effects
+			(font
+				(size 1.27 1.27)
+			)
+			(justify left bottom)
+		)
+		(uuid "ad1a95a9-49f1-49ec-92d0-fbdc5958dbef")
 	)
 	(hierarchical_label "DAC4_CS"
 		(shape input)
@@ -2395,7 +2211,7 @@
 		(dnp no)
 		(fields_autoplaced yes)
 		(uuid "02f34391-c8af-4071-aa1c-54d91f34c98b")
-		(property "Reference" "U9"
+		(property "Reference" "U5"
 			(at 132.08 81.28 0)
 			(effects
 				(font
@@ -2465,7 +2281,7 @@
 		(instances
 			(project ""
 				(path "/c8ed293a-fe87-496b-9ed5-e9e5575d3b65/0769fcef-6a0c-45f8-937e-32b287322a02"
-					(reference "U9")
+					(reference "U5")
 					(unit 2)
 				)
 			)
@@ -2481,7 +2297,7 @@
 		(dnp no)
 		(fields_autoplaced yes)
 		(uuid "0b29cad7-1516-48c9-aef4-ad5b058d3908")
-		(property "Reference" "#PWR07"
+		(property "Reference" "#PWR035"
 			(at 71.12 173.99 0)
 			(effects
 				(font
@@ -2531,7 +2347,7 @@
 		(instances
 			(project "STM32G474RE_TB"
 				(path "/c8ed293a-fe87-496b-9ed5-e9e5575d3b65/0769fcef-6a0c-45f8-937e-32b287322a02"
-					(reference "#PWR07")
+					(reference "#PWR035")
 					(unit 1)
 				)
 			)
@@ -2547,7 +2363,7 @@
 		(dnp no)
 		(fields_autoplaced yes)
 		(uuid "10ba9a8a-c4eb-40f4-99ea-8c53682e2d2e")
-		(property "Reference" "#PWR027"
+		(property "Reference" "#PWR031"
 			(at 83.82 143.51 0)
 			(effects
 				(font
@@ -2597,7 +2413,7 @@
 		(instances
 			(project "STM32G474RE_TB"
 				(path "/c8ed293a-fe87-496b-9ed5-e9e5575d3b65/0769fcef-6a0c-45f8-937e-32b287322a02"
-					(reference "#PWR027")
+					(reference "#PWR031")
 					(unit 1)
 				)
 			)
@@ -2613,7 +2429,7 @@
 		(dnp no)
 		(fields_autoplaced yes)
 		(uuid "15418363-3a61-432e-a43e-3607e80f53c3")
-		(property "Reference" "#PWR06"
+		(property "Reference" "#PWR030"
 			(at 71.12 135.89 0)
 			(effects
 				(font
@@ -2663,7 +2479,7 @@
 		(instances
 			(project ""
 				(path "/c8ed293a-fe87-496b-9ed5-e9e5575d3b65/0769fcef-6a0c-45f8-937e-32b287322a02"
-					(reference "#PWR06")
+					(reference "#PWR030")
 					(unit 1)
 				)
 			)
@@ -2679,7 +2495,7 @@
 		(dnp no)
 		(fields_autoplaced yes)
 		(uuid "15cdcbe0-0356-49d9-9ddc-2313c6211c1a")
-		(property "Reference" "#PWR028"
+		(property "Reference" "#PWR036"
 			(at 83.82 181.61 0)
 			(effects
 				(font
@@ -2729,63 +2545,24 @@
 		(instances
 			(project "STM32G474RE_TB"
 				(path "/c8ed293a-fe87-496b-9ed5-e9e5575d3b65/0769fcef-6a0c-45f8-937e-32b287322a02"
-					(reference "#PWR028")
+					(reference "#PWR036")
 					(unit 1)
 				)
 			)
 		)
 	)
 	(symbol
-		(lib_id "Reference_Voltage:REF3025")
-		(at 218.44 49.53 0)
+		(lib_id "power:GND")
+		(at 83.82 99.06 0)
 		(unit 1)
 		(exclude_from_sim no)
 		(in_bom yes)
 		(on_board yes)
 		(dnp no)
 		(fields_autoplaced yes)
-		(uuid "1852e911-42f2-43a4-9bdc-c5c2c89173f3")
-		(property "Reference" "U7"
-			(at 212.09 48.2599 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(justify right)
-			)
-		)
-		(property "Value" "REF3125"
-			(at 212.09 50.7999 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-					(italic yes)
-				)
-				(justify right)
-			)
-		)
-		(property "Footprint" "Package_TO_SOT_SMD:SOT-23"
-			(at 218.44 60.96 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-					(italic yes)
-				)
-				(hide yes)
-			)
-		)
-		(property "Datasheet" "http://www.ti.com/lit/ds/symlink/ref3033.pdf"
-			(at 220.98 58.42 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-					(italic yes)
-				)
-				(hide yes)
-			)
-		)
-		(property "Description" "2.500V 50-ppm/°C Max, 50-μA, CMOS Voltage Reference, SOT-23-3"
-			(at 218.44 49.53 0)
+		(uuid "213f1829-9611-487a-9e21-a4668f54d3c3")
+		(property "Reference" "#PWR022"
+			(at 83.82 105.41 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -2793,19 +2570,48 @@
 				(hide yes)
 			)
 		)
-		(pin "2"
-			(uuid "22f611ac-c63d-4d6f-9789-4fb78ff693ab")
+		(property "Value" "GND"
+			(at 83.82 104.14 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
 		)
-		(pin "3"
-			(uuid "e8201710-8147-403f-93a1-163be9c37d02")
+		(property "Footprint" ""
+			(at 83.82 99.06 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Datasheet" ""
+			(at 83.82 99.06 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Description" "Power symbol creates a global label with name \"GND\" , ground"
+			(at 83.82 99.06 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
 		)
 		(pin "1"
-			(uuid "13aead90-16a2-4765-868e-752b7e907e19")
+			(uuid "68c5a177-fa5a-49d4-87e3-6ce1a686cc8b")
 		)
 		(instances
-			(project ""
+			(project "STM32G474RE_TB"
 				(path "/c8ed293a-fe87-496b-9ed5-e9e5575d3b65/0769fcef-6a0c-45f8-937e-32b287322a02"
-					(reference "U7")
+					(reference "#PWR022")
 					(unit 1)
 				)
 			)
@@ -2821,7 +2627,7 @@
 		(dnp no)
 		(fields_autoplaced yes)
 		(uuid "2adad0f0-65f9-4ac9-b874-6b398bb26c63")
-		(property "Reference" "#PWR013"
+		(property "Reference" "#PWR033"
 			(at 248.92 146.05 0)
 			(effects
 				(font
@@ -2871,7 +2677,7 @@
 		(instances
 			(project "STM32G474RE_TB"
 				(path "/c8ed293a-fe87-496b-9ed5-e9e5575d3b65/0769fcef-6a0c-45f8-937e-32b287322a02"
-					(reference "#PWR013")
+					(reference "#PWR033")
 					(unit 1)
 				)
 			)
@@ -2887,7 +2693,7 @@
 		(dnp no)
 		(fields_autoplaced yes)
 		(uuid "3475a302-82df-4348-b26d-e8e71343cdee")
-		(property "Reference" "#PWR012"
+		(property "Reference" "#PWR026"
 			(at 248.92 119.38 0)
 			(effects
 				(font
@@ -2937,73 +2743,7 @@
 		(instances
 			(project ""
 				(path "/c8ed293a-fe87-496b-9ed5-e9e5575d3b65/0769fcef-6a0c-45f8-937e-32b287322a02"
-					(reference "#PWR012")
-					(unit 1)
-				)
-			)
-		)
-	)
-	(symbol
-		(lib_id "power:GND")
-		(at 223.52 36.83 0)
-		(unit 1)
-		(exclude_from_sim no)
-		(in_bom yes)
-		(on_board yes)
-		(dnp no)
-		(fields_autoplaced yes)
-		(uuid "373dc65c-09b9-4315-85c9-e5be0b5f9bd9")
-		(property "Reference" "#PWR016"
-			(at 223.52 43.18 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(property "Value" "GND"
-			(at 223.52 41.91 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-			)
-		)
-		(property "Footprint" ""
-			(at 223.52 36.83 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(property "Datasheet" ""
-			(at 223.52 36.83 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(property "Description" "Power symbol creates a global label with name \"GND\" , ground"
-			(at 223.52 36.83 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(pin "1"
-			(uuid "9340d9d9-a32b-4b76-9168-ee922a0264af")
-		)
-		(instances
-			(project "STM32G474RE_TB"
-				(path "/c8ed293a-fe87-496b-9ed5-e9e5575d3b65/0769fcef-6a0c-45f8-937e-32b287322a02"
-					(reference "#PWR016")
+					(reference "#PWR026")
 					(unit 1)
 				)
 			)
@@ -3019,7 +2759,7 @@
 		(dnp no)
 		(fields_autoplaced yes)
 		(uuid "37448eb5-ac0f-4687-ac0f-fbdb50cff7c0")
-		(property "Reference" "U9"
+		(property "Reference" "U5"
 			(at 132.08 43.18 0)
 			(effects
 				(font
@@ -3089,7 +2829,7 @@
 		(instances
 			(project ""
 				(path "/c8ed293a-fe87-496b-9ed5-e9e5575d3b65/0769fcef-6a0c-45f8-937e-32b287322a02"
-					(reference "U9")
+					(reference "U5")
 					(unit 1)
 				)
 			)
@@ -3105,7 +2845,7 @@
 		(dnp no)
 		(fields_autoplaced yes)
 		(uuid "3d5050d8-5420-42df-aee7-4b9d0abfd126")
-		(property "Reference" "#PWR029"
+		(property "Reference" "#PWR025"
 			(at 199.39 105.41 0)
 			(effects
 				(font
@@ -3155,7 +2895,7 @@
 		(instances
 			(project "STM32G474RE_TB"
 				(path "/c8ed293a-fe87-496b-9ed5-e9e5575d3b65/0769fcef-6a0c-45f8-937e-32b287322a02"
-					(reference "#PWR029")
+					(reference "#PWR025")
 					(unit 1)
 				)
 			)
@@ -3171,7 +2911,7 @@
 		(dnp no)
 		(fields_autoplaced yes)
 		(uuid "3f8fd484-0f25-4968-a435-e7bc116001f6")
-		(property "Reference" "#PWR026"
+		(property "Reference" "#PWR016"
 			(at 83.82 67.31 0)
 			(effects
 				(font
@@ -3221,7 +2961,7 @@
 		(instances
 			(project "STM32G474RE_TB"
 				(path "/c8ed293a-fe87-496b-9ed5-e9e5575d3b65/0769fcef-6a0c-45f8-937e-32b287322a02"
-					(reference "#PWR026")
+					(reference "#PWR016")
 					(unit 1)
 				)
 			)
@@ -3237,7 +2977,7 @@
 		(dnp no)
 		(fields_autoplaced yes)
 		(uuid "403589f2-7286-40b9-a941-9692ea816306")
-		(property "Reference" "C5"
+		(property "Reference" "C8"
 			(at 245.11 107.9501 0)
 			(effects
 				(font
@@ -3291,7 +3031,7 @@
 		(instances
 			(project "STM32G474RE_TB"
 				(path "/c8ed293a-fe87-496b-9ed5-e9e5575d3b65/0769fcef-6a0c-45f8-937e-32b287322a02"
-					(reference "C5")
+					(reference "C8")
 					(unit 1)
 				)
 			)
@@ -3307,7 +3047,7 @@
 		(dnp no)
 		(fields_autoplaced yes)
 		(uuid "42b91b2b-7949-44f3-97e8-41c6abcb20a0")
-		(property "Reference" "#PWR05"
+		(property "Reference" "#PWR021"
 			(at 71.12 97.79 0)
 			(effects
 				(font
@@ -3357,73 +3097,7 @@
 		(instances
 			(project ""
 				(path "/c8ed293a-fe87-496b-9ed5-e9e5575d3b65/0769fcef-6a0c-45f8-937e-32b287322a02"
-					(reference "#PWR05")
-					(unit 1)
-				)
-			)
-		)
-	)
-	(symbol
-		(lib_id "power:GND")
-		(at 215.9 58.42 0)
-		(unit 1)
-		(exclude_from_sim no)
-		(in_bom yes)
-		(on_board yes)
-		(dnp no)
-		(fields_autoplaced yes)
-		(uuid "4713993f-7f71-4a4c-9c29-d0e24853d98e")
-		(property "Reference" "#PWR015"
-			(at 215.9 64.77 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(property "Value" "GND"
-			(at 215.9 63.5 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-			)
-		)
-		(property "Footprint" ""
-			(at 215.9 58.42 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(property "Datasheet" ""
-			(at 215.9 58.42 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(property "Description" "Power symbol creates a global label with name \"GND\" , ground"
-			(at 215.9 58.42 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(pin "1"
-			(uuid "eba10aa3-72b5-43ae-a3ab-cf0b721696e1")
-		)
-		(instances
-			(project ""
-				(path "/c8ed293a-fe87-496b-9ed5-e9e5575d3b65/0769fcef-6a0c-45f8-937e-32b287322a02"
-					(reference "#PWR015")
+					(reference "#PWR021")
 					(unit 1)
 				)
 			)
@@ -3439,7 +3113,7 @@
 		(dnp no)
 		(fields_autoplaced yes)
 		(uuid "482f1453-c6e7-4ee0-9c0a-36e3af77a39b")
-		(property "Reference" "#PWR025"
+		(property "Reference" "#PWR034"
 			(at 83.82 158.75 0)
 			(effects
 				(font
@@ -3489,7 +3163,7 @@
 		(instances
 			(project "STM32G474RE_TB"
 				(path "/c8ed293a-fe87-496b-9ed5-e9e5575d3b65/0769fcef-6a0c-45f8-937e-32b287322a02"
-					(reference "#PWR025")
+					(reference "#PWR034")
 					(unit 1)
 				)
 			)
@@ -3505,7 +3179,7 @@
 		(dnp no)
 		(fields_autoplaced yes)
 		(uuid "490ca730-96bc-4a57-b6f5-87a91d551dcc")
-		(property "Reference" "#PWR030"
+		(property "Reference" "#PWR027"
 			(at 199.39 120.65 0)
 			(effects
 				(font
@@ -3555,73 +3229,7 @@
 		(instances
 			(project "STM32G474RE_TB"
 				(path "/c8ed293a-fe87-496b-9ed5-e9e5575d3b65/0769fcef-6a0c-45f8-937e-32b287322a02"
-					(reference "#PWR030")
-					(unit 1)
-				)
-			)
-		)
-	)
-	(symbol
-		(lib_id "power:+2V5")
-		(at 231.14 49.53 0)
-		(unit 1)
-		(exclude_from_sim no)
-		(in_bom yes)
-		(on_board yes)
-		(dnp no)
-		(fields_autoplaced yes)
-		(uuid "58333a5e-3bdd-4f5d-aed2-bf3600c0bc5e")
-		(property "Reference" "#PWR017"
-			(at 231.14 53.34 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(property "Value" "+2V5REF"
-			(at 231.14 44.45 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-			)
-		)
-		(property "Footprint" ""
-			(at 231.14 49.53 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(property "Datasheet" ""
-			(at 231.14 49.53 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(property "Description" "Power symbol creates a global label with name \"+2V5\""
-			(at 231.14 49.53 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(pin "1"
-			(uuid "b486273e-3770-4c22-acbb-7a9f4edb6e77")
-		)
-		(instances
-			(project ""
-				(path "/c8ed293a-fe87-496b-9ed5-e9e5575d3b65/0769fcef-6a0c-45f8-937e-32b287322a02"
-					(reference "#PWR017")
+					(reference "#PWR027")
 					(unit 1)
 				)
 			)
@@ -3637,7 +3245,7 @@
 		(dnp no)
 		(fields_autoplaced yes)
 		(uuid "5ae42dcd-1ed9-40ef-b070-d970b2840a8c")
-		(property "Reference" "U3"
+		(property "Reference" "U7"
 			(at 106.68 82.4798 0)
 			(effects
 				(font
@@ -3708,7 +3316,7 @@
 		(instances
 			(project "STM32G474RE_TB"
 				(path "/c8ed293a-fe87-496b-9ed5-e9e5575d3b65/0769fcef-6a0c-45f8-937e-32b287322a02"
-					(reference "U3")
+					(reference "U7")
 					(unit 1)
 				)
 			)
@@ -3724,7 +3332,7 @@
 		(dnp no)
 		(fields_autoplaced yes)
 		(uuid "5ca0c86e-e974-442f-a997-44fb893c9157")
-		(property "Reference" "#PWR022"
+		(property "Reference" "#PWR014"
 			(at 83.82 44.45 0)
 			(effects
 				(font
@@ -3774,7 +3382,7 @@
 		(instances
 			(project "STM32G474RE_TB"
 				(path "/c8ed293a-fe87-496b-9ed5-e9e5575d3b65/0769fcef-6a0c-45f8-937e-32b287322a02"
-					(reference "#PWR022")
+					(reference "#PWR014")
 					(unit 1)
 				)
 			)
@@ -3790,7 +3398,7 @@
 		(dnp no)
 		(fields_autoplaced yes)
 		(uuid "6db10a4a-ed72-4fac-8daf-b5bb7db743f9")
-		(property "Reference" "#PWR011"
+		(property "Reference" "#PWR029"
 			(at 248.92 130.81 0)
 			(effects
 				(font
@@ -3840,7 +3448,7 @@
 		(instances
 			(project "STM32G474RE_TB"
 				(path "/c8ed293a-fe87-496b-9ed5-e9e5575d3b65/0769fcef-6a0c-45f8-937e-32b287322a02"
-					(reference "#PWR011")
+					(reference "#PWR029")
 					(unit 1)
 				)
 			)
@@ -3856,7 +3464,7 @@
 		(dnp no)
 		(fields_autoplaced yes)
 		(uuid "75f167b9-4302-49d3-b925-aa471a21e378")
-		(property "Reference" "U6"
+		(property "Reference" "U9"
 			(at 106.68 158.6798 0)
 			(effects
 				(font
@@ -3927,7 +3535,7 @@
 		(instances
 			(project "STM32G474RE_TB"
 				(path "/c8ed293a-fe87-496b-9ed5-e9e5575d3b65/0769fcef-6a0c-45f8-937e-32b287322a02"
-					(reference "U6")
+					(reference "U9")
 					(unit 1)
 				)
 			)
@@ -3943,7 +3551,7 @@
 		(dnp no)
 		(fields_autoplaced yes)
 		(uuid "79831264-bd3c-4007-bc6d-472590707123")
-		(property "Reference" "U4"
+		(property "Reference" "U8"
 			(at 106.68 120.5798 0)
 			(effects
 				(font
@@ -4014,7 +3622,7 @@
 		(instances
 			(project "STM32G474RE_TB"
 				(path "/c8ed293a-fe87-496b-9ed5-e9e5575d3b65/0769fcef-6a0c-45f8-937e-32b287322a02"
-					(reference "U4")
+					(reference "U8")
 					(unit 1)
 				)
 			)
@@ -4030,7 +3638,7 @@
 		(dnp no)
 		(fields_autoplaced yes)
 		(uuid "7abea501-21b5-429d-ad04-9aeb1bbd829f")
-		(property "Reference" "#PWR08"
+		(property "Reference" "#PWR018"
 			(at 248.92 68.58 0)
 			(effects
 				(font
@@ -4080,7 +3688,7 @@
 		(instances
 			(project ""
 				(path "/c8ed293a-fe87-496b-9ed5-e9e5575d3b65/0769fcef-6a0c-45f8-937e-32b287322a02"
-					(reference "#PWR08")
+					(reference "#PWR018")
 					(unit 1)
 				)
 			)
@@ -4096,7 +3704,7 @@
 		(dnp no)
 		(fields_autoplaced yes)
 		(uuid "7dbd0f1b-e9f5-471a-bbc5-a24272f91170")
-		(property "Reference" "#PWR010"
+		(property "Reference" "#PWR024"
 			(at 248.92 104.14 0)
 			(effects
 				(font
@@ -4146,7 +3754,7 @@
 		(instances
 			(project "STM32G474RE_TB"
 				(path "/c8ed293a-fe87-496b-9ed5-e9e5575d3b65/0769fcef-6a0c-45f8-937e-32b287322a02"
-					(reference "#PWR010")
+					(reference "#PWR024")
 					(unit 1)
 				)
 			)
@@ -4162,7 +3770,7 @@
 		(dnp no)
 		(fields_autoplaced yes)
 		(uuid "7f97016f-a2c4-4483-b774-d02c441b4185")
-		(property "Reference" "C9"
+		(property "Reference" "C11"
 			(at 208.28 109.2201 0)
 			(effects
 				(font
@@ -4216,7 +3824,7 @@
 		(instances
 			(project "STM32G474RE_TB"
 				(path "/c8ed293a-fe87-496b-9ed5-e9e5575d3b65/0769fcef-6a0c-45f8-937e-32b287322a02"
-					(reference "C9")
+					(reference "C11")
 					(unit 1)
 				)
 			)
@@ -4232,7 +3840,7 @@
 		(dnp no)
 		(fields_autoplaced yes)
 		(uuid "806bfbe4-df84-423e-b0fb-bbbdcb31dd45")
-		(property "Reference" "C3"
+		(property "Reference" "C14"
 			(at 245.11 134.6201 0)
 			(effects
 				(font
@@ -4286,7 +3894,7 @@
 		(instances
 			(project "STM32G474RE_TB"
 				(path "/c8ed293a-fe87-496b-9ed5-e9e5575d3b65/0769fcef-6a0c-45f8-937e-32b287322a02"
-					(reference "C3")
+					(reference "C14")
 					(unit 1)
 				)
 			)
@@ -4302,7 +3910,7 @@
 		(dnp no)
 		(fields_autoplaced yes)
 		(uuid "8545acbb-0084-4aa7-a5ba-ebbf19f7e6a9")
-		(property "Reference" "U5"
+		(property "Reference" "U6"
 			(at 132.08 119.38 0)
 			(effects
 				(font
@@ -4372,7 +3980,7 @@
 		(instances
 			(project ""
 				(path "/c8ed293a-fe87-496b-9ed5-e9e5575d3b65/0769fcef-6a0c-45f8-937e-32b287322a02"
-					(reference "U5")
+					(reference "U6")
 					(unit 1)
 				)
 			)
@@ -4388,7 +3996,7 @@
 		(dnp no)
 		(fields_autoplaced yes)
 		(uuid "8bac705f-fe7b-4c4e-b5f8-c79d18139aa3")
-		(property "Reference" "U9"
+		(property "Reference" "U5"
 			(at 250.19 73.6599 0)
 			(effects
 				(font
@@ -4460,7 +4068,7 @@
 		(instances
 			(project ""
 				(path "/c8ed293a-fe87-496b-9ed5-e9e5575d3b65/0769fcef-6a0c-45f8-937e-32b287322a02"
-					(reference "U9")
+					(reference "U5")
 					(unit 3)
 				)
 			)
@@ -4476,7 +4084,7 @@
 		(dnp no)
 		(fields_autoplaced yes)
 		(uuid "8d21dfb2-48c1-406e-8542-8c764e1bd53a")
-		(property "Reference" "#PWR021"
+		(property "Reference" "#PWR037"
 			(at 85.09 175.26 0)
 			(effects
 				(font
@@ -4527,7 +4135,7 @@
 		(instances
 			(project "STM32G474RE_TB"
 				(path "/c8ed293a-fe87-496b-9ed5-e9e5575d3b65/0769fcef-6a0c-45f8-937e-32b287322a02"
-					(reference "#PWR021")
+					(reference "#PWR037")
 					(unit 1)
 				)
 			)
@@ -4543,7 +4151,7 @@
 		(dnp no)
 		(fields_autoplaced yes)
 		(uuid "92674f09-29d8-4e30-b60d-fd4f382a3858")
-		(property "Reference" "#PWR019"
+		(property "Reference" "#PWR023"
 			(at 85.09 99.06 0)
 			(effects
 				(font
@@ -4594,7 +4202,7 @@
 		(instances
 			(project "STM32G474RE_TB"
 				(path "/c8ed293a-fe87-496b-9ed5-e9e5575d3b65/0769fcef-6a0c-45f8-937e-32b287322a02"
-					(reference "#PWR019")
+					(reference "#PWR023")
 					(unit 1)
 				)
 			)
@@ -4610,7 +4218,7 @@
 		(dnp no)
 		(fields_autoplaced yes)
 		(uuid "9af832cc-a0af-45bf-a262-77569e803e48")
-		(property "Reference" "#PWR020"
+		(property "Reference" "#PWR032"
 			(at 85.09 137.16 0)
 			(effects
 				(font
@@ -4661,7 +4269,7 @@
 		(instances
 			(project "STM32G474RE_TB"
 				(path "/c8ed293a-fe87-496b-9ed5-e9e5575d3b65/0769fcef-6a0c-45f8-937e-32b287322a02"
-					(reference "#PWR020")
+					(reference "#PWR032")
 					(unit 1)
 				)
 			)
@@ -4677,7 +4285,7 @@
 		(dnp no)
 		(fields_autoplaced yes)
 		(uuid "a22e0d47-8716-4968-8c54-31df9e48e14f")
-		(property "Reference" "U5"
+		(property "Reference" "U6"
 			(at 133.35 157.48 0)
 			(effects
 				(font
@@ -4747,7 +4355,7 @@
 		(instances
 			(project ""
 				(path "/c8ed293a-fe87-496b-9ed5-e9e5575d3b65/0769fcef-6a0c-45f8-937e-32b287322a02"
-					(reference "U5")
+					(reference "U6")
 					(unit 2)
 				)
 			)
@@ -4763,7 +4371,7 @@
 		(dnp no)
 		(fields_autoplaced yes)
 		(uuid "a6a72ee3-d8fa-4ea8-918a-98e7a3803c19")
-		(property "Reference" "C4"
+		(property "Reference" "C9"
 			(at 257.81 107.9501 0)
 			(effects
 				(font
@@ -4817,7 +4425,7 @@
 		(instances
 			(project "STM32G474RE_TB"
 				(path "/c8ed293a-fe87-496b-9ed5-e9e5575d3b65/0769fcef-6a0c-45f8-937e-32b287322a02"
-					(reference "C4")
+					(reference "C9")
 					(unit 1)
 				)
 			)
@@ -4833,7 +4441,7 @@
 		(dnp no)
 		(fields_autoplaced yes)
 		(uuid "ac0d2027-e8fc-45f5-87c0-de8452a47ab3")
-		(property "Reference" "C10"
+		(property "Reference" "C12"
 			(at 219.71 109.2201 0)
 			(effects
 				(font
@@ -4887,7 +4495,7 @@
 		(instances
 			(project "STM32G474RE_TB"
 				(path "/c8ed293a-fe87-496b-9ed5-e9e5575d3b65/0769fcef-6a0c-45f8-937e-32b287322a02"
-					(reference "C10")
+					(reference "C12")
 					(unit 1)
 				)
 			)
@@ -4903,7 +4511,7 @@
 		(dnp no)
 		(fields_autoplaced yes)
 		(uuid "adbd55e9-a186-4e1d-8824-84e8429140c0")
-		(property "Reference" "#PWR023"
+		(property "Reference" "#PWR019"
 			(at 83.82 82.55 0)
 			(effects
 				(font
@@ -4953,7 +4561,7 @@
 		(instances
 			(project "STM32G474RE_TB"
 				(path "/c8ed293a-fe87-496b-9ed5-e9e5575d3b65/0769fcef-6a0c-45f8-937e-32b287322a02"
-					(reference "#PWR023")
+					(reference "#PWR019")
 					(unit 1)
 				)
 			)
@@ -4969,7 +4577,7 @@
 		(dnp no)
 		(fields_autoplaced yes)
 		(uuid "aee85c66-ea42-4e49-8482-3eec13e53533")
-		(property "Reference" "U2"
+		(property "Reference" "U4"
 			(at 106.68 44.3798 0)
 			(effects
 				(font
@@ -5040,75 +4648,7 @@
 		(instances
 			(project "STM32G474RE_TB"
 				(path "/c8ed293a-fe87-496b-9ed5-e9e5575d3b65/0769fcef-6a0c-45f8-937e-32b287322a02"
-					(reference "U2")
-					(unit 1)
-				)
-			)
-		)
-	)
-	(symbol
-		(lib_id "Device:C")
-		(at 219.71 36.83 90)
-		(unit 1)
-		(exclude_from_sim no)
-		(in_bom yes)
-		(on_board yes)
-		(dnp no)
-		(fields_autoplaced yes)
-		(uuid "b81cde9b-0361-47ac-bd26-1643323f17d7")
-		(property "Reference" "C7"
-			(at 220.472 30.988 90)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-			)
-		)
-		(property "Value" "0.47uF"
-			(at 220.472 33.528 90)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-			)
-		)
-		(property "Footprint" "Capacitor_SMD:C_0603_1608Metric"
-			(at 223.52 35.8648 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(property "Datasheet" "~"
-			(at 219.71 36.83 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(property "Description" "Unpolarized capacitor"
-			(at 219.71 36.83 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(pin "2"
-			(uuid "21404aa8-c724-4ccf-b4df-e90a0b0825ac")
-		)
-		(pin "1"
-			(uuid "729e08d9-f859-4acb-885b-39f3186d861d")
-		)
-		(instances
-			(project "STM32G474RE_TB"
-				(path "/c8ed293a-fe87-496b-9ed5-e9e5575d3b65/0769fcef-6a0c-45f8-937e-32b287322a02"
-					(reference "C7")
+					(reference "U4")
 					(unit 1)
 				)
 			)
@@ -5124,7 +4664,7 @@
 		(dnp no)
 		(fields_autoplaced yes)
 		(uuid "c0284e26-67bb-4316-9b79-cfec789c405b")
-		(property "Reference" "C6"
+		(property "Reference" "C15"
 			(at 257.81 134.6201 0)
 			(effects
 				(font
@@ -5178,73 +4718,7 @@
 		(instances
 			(project "STM32G474RE_TB"
 				(path "/c8ed293a-fe87-496b-9ed5-e9e5575d3b65/0769fcef-6a0c-45f8-937e-32b287322a02"
-					(reference "C6")
-					(unit 1)
-				)
-			)
-		)
-	)
-	(symbol
-		(lib_id "power:+5V")
-		(at 215.9 34.29 0)
-		(unit 1)
-		(exclude_from_sim no)
-		(in_bom yes)
-		(on_board yes)
-		(dnp no)
-		(fields_autoplaced yes)
-		(uuid "c64a99e2-c3b5-4757-b21b-108f1080444c")
-		(property "Reference" "#PWR014"
-			(at 215.9 38.1 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(property "Value" "+5V"
-			(at 215.9 29.21 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-			)
-		)
-		(property "Footprint" ""
-			(at 215.9 34.29 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(property "Datasheet" ""
-			(at 215.9 34.29 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(property "Description" "Power symbol creates a global label with name \"+5V\""
-			(at 215.9 34.29 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(pin "1"
-			(uuid "0298b4c2-c7c1-4622-a368-0b147e9e08e0")
-		)
-		(instances
-			(project ""
-				(path "/c8ed293a-fe87-496b-9ed5-e9e5575d3b65/0769fcef-6a0c-45f8-937e-32b287322a02"
-					(reference "#PWR014")
+					(reference "C15")
 					(unit 1)
 				)
 			)
@@ -5260,7 +4734,7 @@
 		(dnp no)
 		(fields_autoplaced yes)
 		(uuid "cf47bfe3-e452-494b-a6d2-e461aecaac7b")
-		(property "Reference" "#PWR09"
+		(property "Reference" "#PWR020"
 			(at 248.92 82.55 0)
 			(effects
 				(font
@@ -5310,7 +4784,7 @@
 		(instances
 			(project ""
 				(path "/c8ed293a-fe87-496b-9ed5-e9e5575d3b65/0769fcef-6a0c-45f8-937e-32b287322a02"
-					(reference "#PWR09")
+					(reference "#PWR020")
 					(unit 1)
 				)
 			)
@@ -5326,7 +4800,7 @@
 		(dnp no)
 		(fields_autoplaced yes)
 		(uuid "d8516182-40cc-4227-955f-a6e35dccedca")
-		(property "Reference" "C11"
+		(property "Reference" "C13"
 			(at 231.14 109.2201 0)
 			(effects
 				(font
@@ -5380,7 +4854,7 @@
 		(instances
 			(project "STM32G474RE_TB"
 				(path "/c8ed293a-fe87-496b-9ed5-e9e5575d3b65/0769fcef-6a0c-45f8-937e-32b287322a02"
-					(reference "C11")
+					(reference "C13")
 					(unit 1)
 				)
 			)
@@ -5396,7 +4870,7 @@
 		(dnp no)
 		(fields_autoplaced yes)
 		(uuid "ded3c8d2-18ec-488b-8aae-131107ad3c23")
-		(property "Reference" "U5"
+		(property "Reference" "U6"
 			(at 264.16 73.6599 0)
 			(effects
 				(font
@@ -5468,7 +4942,7 @@
 		(instances
 			(project ""
 				(path "/c8ed293a-fe87-496b-9ed5-e9e5575d3b65/0769fcef-6a0c-45f8-937e-32b287322a02"
-					(reference "U5")
+					(reference "U6")
 					(unit 3)
 				)
 			)
@@ -5484,7 +4958,7 @@
 		(dnp no)
 		(fields_autoplaced yes)
 		(uuid "e54cc8b2-b9c9-471c-83f6-c751671cb4cf")
-		(property "Reference" "#PWR018"
+		(property "Reference" "#PWR017"
 			(at 85.09 60.96 0)
 			(effects
 				(font
@@ -5535,7 +5009,7 @@
 		(instances
 			(project "STM32G474RE_TB"
 				(path "/c8ed293a-fe87-496b-9ed5-e9e5575d3b65/0769fcef-6a0c-45f8-937e-32b287322a02"
-					(reference "#PWR018")
+					(reference "#PWR017")
 					(unit 1)
 				)
 			)
@@ -5551,7 +5025,7 @@
 		(dnp no)
 		(fields_autoplaced yes)
 		(uuid "edf893e8-fc4c-4c3a-916f-3c465233b247")
-		(property "Reference" "#PWR04"
+		(property "Reference" "#PWR015"
 			(at 71.12 59.69 0)
 			(effects
 				(font
@@ -5601,7 +5075,7 @@
 		(instances
 			(project ""
 				(path "/c8ed293a-fe87-496b-9ed5-e9e5575d3b65/0769fcef-6a0c-45f8-937e-32b287322a02"
-					(reference "#PWR04")
+					(reference "#PWR015")
 					(unit 1)
 				)
 			)
@@ -5617,7 +5091,7 @@
 		(dnp no)
 		(fields_autoplaced yes)
 		(uuid "f9ffe868-786e-4f06-a3f2-8c15d5956461")
-		(property "Reference" "C8"
+		(property "Reference" "C10"
 			(at 195.58 109.2201 0)
 			(effects
 				(font
@@ -5671,7 +5145,7 @@
 		(instances
 			(project "STM32G474RE_TB"
 				(path "/c8ed293a-fe87-496b-9ed5-e9e5575d3b65/0769fcef-6a0c-45f8-937e-32b287322a02"
-					(reference "C8")
+					(reference "C10")
 					(unit 1)
 				)
 			)
@@ -5687,7 +5161,7 @@
 		(dnp no)
 		(fields_autoplaced yes)
 		(uuid "fc721060-b93c-46bf-b4a9-c71e138fd5dc")
-		(property "Reference" "#PWR024"
+		(property "Reference" "#PWR028"
 			(at 83.82 120.65 0)
 			(effects
 				(font
@@ -5737,7 +5211,7 @@
 		(instances
 			(project "STM32G474RE_TB"
 				(path "/c8ed293a-fe87-496b-9ed5-e9e5575d3b65/0769fcef-6a0c-45f8-937e-32b287322a02"
-					(reference "#PWR024")
+					(reference "#PWR028")
 					(unit 1)
 				)
 			)

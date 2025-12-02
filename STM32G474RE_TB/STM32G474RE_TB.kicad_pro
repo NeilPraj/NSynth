@@ -617,6 +617,10 @@
     [
       "0769fcef-6a0c-45f8-937e-32b287322a02",
       "SPI1_DACs"
+    ],
+    [
+      "efbfa24d-5550-405a-8691-18f330b023b0",
+      "MCU_CONFIG"
     ]
   ],
   "text_variables": {}
