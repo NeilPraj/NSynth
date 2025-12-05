@@ -473,6 +473,24 @@
         "via_diameter": 0.6,
         "via_drill": 0.3,
         "wire_width": 6
+      },
+      {
+        "name": "SPI2",
+        "pcb_color": "rgb(255, 154, 69)",
+        "priority": 1,
+        "schematic_color": "rgb(255, 154, 69)"
+      },
+      {
+        "name": "SPI2_CS",
+        "pcb_color": "rgb(199, 48, 255)",
+        "priority": 0,
+        "schematic_color": "rgb(199, 48, 255)"
+      },
+      {
+        "name": "STM32DAC_Outputs",
+        "pcb_color": "rgb(34, 185, 255)",
+        "priority": 2,
+        "schematic_color": "rgb(34, 185, 255)"
       }
     ],
     "meta": {
@@ -480,7 +498,60 @@
     },
     "net_colors": null,
     "netclass_assignments": null,
-    "netclass_patterns": []
+    "netclass_patterns": [
+      {
+        "netclass": "STM32DAC_Outputs",
+        "pattern": "/STDAC1_C1_OUT"
+      },
+      {
+        "netclass": "SPI2",
+        "pattern": "/SPI1_MOSI"
+      },
+      {
+        "netclass": "SPI2",
+        "pattern": "/SPI1_SCK"
+      },
+      {
+        "netclass": "STM32DAC_Outputs",
+        "pattern": "/STDAC1_C2_OUT"
+      },
+      {
+        "netclass": "STM32DAC_Outputs",
+        "pattern": "/STDAC2_OUT"
+      },
+      {
+        "netclass": "STM32DAC_Outputs",
+        "pattern": "/STDAC3_C1_OUT"
+      },
+      {
+        "netclass": "STM32DAC_Outputs",
+        "pattern": "/STDAC3_C2_OUT"
+      },
+      {
+        "netclass": "STM32DAC_Outputs",
+        "pattern": "/STDAC4_C1_OUT"
+      },
+      {
+        "netclass": "STM32DAC_Outputs",
+        "pattern": "/STDAC4_C2_OUT"
+      },
+      {
+        "netclass": "SPI2_CS",
+        "pattern": "/DAC1_CS"
+      },
+      {
+        "netclass": "SPI2_CS",
+        "pattern": "/DAC2_CS"
+      },
+      {
+        "netclass": "SPI2_CS",
+        "pattern": "/DAC3_CS"
+      },
+      {
+        "netclass": "SPI2_CS",
+        "pattern": "/DAC4_CS"
+      }
+    ]
   },
   "pcbnew": {
     "last_paths": {
@@ -621,6 +692,10 @@
     [
       "efbfa24d-5550-405a-8691-18f330b023b0",
       "MCU_CONFIG"
+    ],
+    [
+      "29c1d440-e5ec-4818-a74f-fea8fba346c9",
+      "DAC_Buffers"
     ]
   ],
   "text_variables": {}

@@ -3380,6 +3380,16 @@
 	)
 	(wire
 		(pts
+			(xy 194.31 82.55) (xy 210.82 82.55)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "0c403a0f-31eb-4069-8e78-23f6587d22cb")
+	)
+	(wire
+		(pts
 			(xy 102.87 173.99) (xy 93.98 173.99)
 		)
 		(stroke
@@ -3387,6 +3397,16 @@
 			(type default)
 		)
 		(uuid "117f94f3-d523-4f98-869f-b5072f29fdea")
+	)
+	(wire
+		(pts
+			(xy 194.31 68.58) (xy 210.82 68.58)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "1221cc10-b72f-4552-9b12-381d6110aa69")
 	)
 	(wire
 		(pts
@@ -3447,6 +3467,16 @@
 			(type default)
 		)
 		(uuid "19fcc6ee-bd92-494e-b742-6255d8bf8aa9")
+	)
+	(wire
+		(pts
+			(xy 194.31 85.09) (xy 210.82 85.09)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "1a75dd06-f16d-4956-b600-895ca88179d2")
 	)
 	(wire
 		(pts
@@ -3550,6 +3580,16 @@
 	)
 	(wire
 		(pts
+			(xy 210.82 78.74) (xy 194.31 78.74)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "344e5a7f-53e0-41ff-a519-2b0290825182")
+	)
+	(wire
+		(pts
 			(xy 118.11 173.99) (xy 123.19 173.99)
 		)
 		(stroke
@@ -3567,6 +3607,16 @@
 			(type default)
 		)
 		(uuid "3c9a9b96-5bda-4d4a-a9f6-2caade9f5aaa")
+	)
+	(wire
+		(pts
+			(xy 210.82 76.2) (xy 194.31 76.2)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "402e80c2-2b4e-4f80-8708-f0ce5eb026ac")
 	)
 	(wire
 		(pts
@@ -3750,6 +3800,16 @@
 	)
 	(wire
 		(pts
+			(xy 194.31 66.04) (xy 210.82 66.04)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "7b8ded56-8d38-4dd1-abb4-3feb9fedfe01")
+	)
+	(wire
+		(pts
 			(xy 210.82 97.79) (xy 194.31 97.79)
 		)
 		(stroke
@@ -3777,6 +3837,16 @@
 			(type default)
 		)
 		(uuid "82138c23-fb9f-4065-8db2-147e4659de54")
+	)
+	(wire
+		(pts
+			(xy 194.31 72.39) (xy 210.82 72.39)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "831d9f40-51b9-4a8e-a55c-f00d951e9761")
 	)
 	(wire
 		(pts
@@ -4178,6 +4248,16 @@
 		)
 		(uuid "fc0032dc-7490-4bbc-85fe-57ba086206c2")
 	)
+	(label "STDAC3_C2_OUT"
+		(at 194.31 78.74 0)
+		(effects
+			(font
+				(size 1.27 1.27)
+			)
+			(justify left bottom)
+		)
+		(uuid "02a99b41-c630-46c1-bfe0-c3e79fa9d4ba")
+	)
 	(label "TIM1_CH3"
 		(at 90.17 78.74 0)
 		(effects
@@ -4348,6 +4428,16 @@
 		)
 		(uuid "6fb8d7c1-11da-4b9b-b20a-f37c1ff896e9")
 	)
+	(label "STDAC4_C2_OUT"
+		(at 194.31 85.09 0)
+		(effects
+			(font
+				(size 1.27 1.27)
+			)
+			(justify left bottom)
+		)
+		(uuid "713496d8-e33d-4aaf-bb72-0d42548e5096")
+	)
 	(label "TIM4_CH1"
 		(at 173.99 78.74 180)
 		(effects
@@ -4368,6 +4458,26 @@
 		)
 		(uuid "7494047b-7f09-43dc-ab46-8920a74506aa")
 	)
+	(label "STDAC2_OUT"
+		(at 194.31 72.39 0)
+		(effects
+			(font
+				(size 1.27 1.27)
+			)
+			(justify left bottom)
+		)
+		(uuid "76aa02a6-311c-451f-a3bb-bdfdb77d26e7")
+	)
+	(label "STDAC3_C1_OUT"
+		(at 194.31 76.2 0)
+		(effects
+			(font
+				(size 1.27 1.27)
+			)
+			(justify left bottom)
+		)
+		(uuid "817be6b7-15ad-4d10-a44e-1b87b510cc98")
+	)
 	(label "DAC2_CS"
 		(at 194.31 107.95 0)
 		(effects
@@ -4387,6 +4497,16 @@
 			(justify left bottom)
 		)
 		(uuid "8b553348-c79a-4882-98db-fe388ba89b46")
+	)
+	(label "STDAC4_C1_OUT"
+		(at 194.31 82.55 0)
+		(effects
+			(font
+				(size 1.27 1.27)
+			)
+			(justify left bottom)
+		)
+		(uuid "966cb6f9-340c-4611-bf8e-6fdb18cace62")
 	)
 	(label "DAC2_CS"
 		(at 90.17 91.44 0)
@@ -4447,6 +4567,16 @@
 			(justify right bottom)
 		)
 		(uuid "aeb09092-c451-46ef-b4a4-48acd9508153")
+	)
+	(label "STDAC1_C1_OUT"
+		(at 194.31 66.04 0)
+		(effects
+			(font
+				(size 1.27 1.27)
+			)
+			(justify left bottom)
+		)
+		(uuid "b3f9be03-c3ab-4994-9a4b-aef1fe681ca7")
 	)
 	(label "DAC3_CS"
 		(at 90.17 93.98 0)
@@ -4517,6 +4647,16 @@
 			(justify left bottom)
 		)
 		(uuid "e2a1ccbe-0500-4be8-b5e1-4ebc3eb01cb9")
+	)
+	(label "STDAC1_C2_OUT"
+		(at 194.31 68.58 0)
+		(effects
+			(font
+				(size 1.27 1.27)
+			)
+			(justify left bottom)
+		)
+		(uuid "e4aaeb73-ef48-45b3-b18d-43238b4ea1e5")
 	)
 	(label "STDAC1_C2_OUT"
 		(at 173.99 63.5 180)
@@ -4742,7 +4882,7 @@
 	)
 	(symbol
 		(lib_id "Device:LED")
-		(at 198.12 82.55 180)
+		(at 163.83 43.18 180)
 		(unit 1)
 		(exclude_from_sim no)
 		(in_bom yes)
@@ -4751,7 +4891,7 @@
 		(fields_autoplaced yes)
 		(uuid "286e8314-52fb-4219-a8f9-e640c4e49280")
 		(property "Reference" "D1"
-			(at 199.7075 74.93 0)
+			(at 165.4175 35.56 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -4759,7 +4899,7 @@
 			)
 		)
 		(property "Value" "KT-0805G"
-			(at 199.7075 77.47 0)
+			(at 165.4175 38.1 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -4767,7 +4907,7 @@
 			)
 		)
 		(property "Footprint" "LED_SMD:LED_0805_2012Metric"
-			(at 198.12 82.55 0)
+			(at 163.83 43.18 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -4776,7 +4916,7 @@
 			)
 		)
 		(property "Datasheet" "~"
-			(at 198.12 82.55 0)
+			(at 163.83 43.18 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -4785,7 +4925,7 @@
 			)
 		)
 		(property "Description" "Light emitting diode"
-			(at 198.12 82.55 0)
+			(at 163.83 43.18 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -4794,7 +4934,7 @@
 			)
 		)
 		(property "Sim.Pins" "1=K 2=A"
-			(at 198.12 82.55 0)
+			(at 163.83 43.18 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -6905,6 +7045,196 @@
 			(project "STM32G474RE_TB"
 				(path "/c8ed293a-fe87-496b-9ed5-e9e5575d3b65"
 					(page "2")
+				)
+			)
+		)
+	)
+	(sheet
+		(at 210.82 64.77)
+		(size 27.94 21.59)
+		(exclude_from_sim no)
+		(in_bom yes)
+		(on_board yes)
+		(dnp no)
+		(fields_autoplaced yes)
+		(stroke
+			(width 0.1524)
+			(type solid)
+		)
+		(fill
+			(color 0 0 0 0.0000)
+		)
+		(uuid "29c1d440-e5ec-4818-a74f-fea8fba346c9")
+		(property "Sheetname" "DAC_Buffers"
+			(at 210.82 64.0584 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left bottom)
+			)
+		)
+		(property "Sheetfile" "DacBuffers.kicad_sch"
+			(at 210.82 86.9446 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left top)
+			)
+		)
+		(property "Field2" ""
+			(at 210.82 64.77 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(pin "Dac1_Buf_Out1" output
+			(at 238.76 66.04 0)
+			(uuid "5664e8f6-9129-4d77-aa07-b966d4853094")
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify right)
+			)
+		)
+		(pin "Dac1_Buf_Out2" output
+			(at 238.76 68.58 0)
+			(uuid "93699f39-dc47-429b-9c1f-e665688aa682")
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify right)
+			)
+		)
+		(pin "DAC1_IN" input
+			(at 210.82 66.04 180)
+			(uuid "8baaff42-ef87-4c5f-900c-ed2e4c763e4b")
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left)
+			)
+		)
+		(pin "DAC1_IN2" input
+			(at 210.82 68.58 180)
+			(uuid "1e27984f-55d8-42da-886c-1d49b4d25ccf")
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left)
+			)
+		)
+		(pin "Dac2_Buf_Out1" output
+			(at 238.76 72.39 0)
+			(uuid "3306033b-db78-4a78-a9a9-465f5ea34679")
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify right)
+			)
+		)
+		(pin "DAC2_IN" input
+			(at 210.82 72.39 180)
+			(uuid "f028df7a-6906-45d7-9628-8a678a0a0129")
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left)
+			)
+		)
+		(pin "Dac3_Buf_Out1" output
+			(at 238.76 78.74 0)
+			(uuid "2c9dfafe-f24e-46e9-ac6b-3804f645adec")
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify right)
+			)
+		)
+		(pin "Dac3_Buf_Out2" output
+			(at 238.76 76.2 0)
+			(uuid "8fd2a610-4c97-4e0a-a04d-9adee61467c4")
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify right)
+			)
+		)
+		(pin "DAC3_IN" input
+			(at 210.82 76.2 180)
+			(uuid "0fa8cb5e-3716-49b6-a234-3e902242ecfd")
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left)
+			)
+		)
+		(pin "DAC3_IN2" input
+			(at 210.82 78.74 180)
+			(uuid "b5bcebf9-b198-4a03-86de-c6a1f477fc9f")
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left)
+			)
+		)
+		(pin "Dac4_Buf_Out1" output
+			(at 238.76 85.09 0)
+			(uuid "5bc97778-bf3c-4294-91ac-07a12d846741")
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify right)
+			)
+		)
+		(pin "Dac4_Buf_Out2" output
+			(at 238.76 82.55 0)
+			(uuid "87566e05-644d-440a-b2c9-88fd14cfa2c4")
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify right)
+			)
+		)
+		(pin "DAC4_IN" input
+			(at 210.82 82.55 180)
+			(uuid "b6d11e16-6eae-407c-87cf-28bc640365df")
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left)
+			)
+		)
+		(pin "DAC4_IN2" input
+			(at 210.82 85.09 180)
+			(uuid "9a793762-5c7a-4149-9366-49e3bdaca866")
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left)
+			)
+		)
+		(instances
+			(project "STM32G474RE_TB"
+				(path "/c8ed293a-fe87-496b-9ed5-e9e5575d3b65"
+					(page "4")
 				)
 			)
 		)
