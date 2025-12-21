@@ -144,189 +144,6 @@
 			)
 			(embedded_fonts no)
 		)
-		(symbol "Device:LED"
-			(pin_numbers
-				(hide yes)
-			)
-			(pin_names
-				(offset 1.016)
-				(hide yes)
-			)
-			(exclude_from_sim no)
-			(in_bom yes)
-			(on_board yes)
-			(property "Reference" "D"
-				(at 0 2.54 0)
-				(effects
-					(font
-						(size 1.27 1.27)
-					)
-				)
-			)
-			(property "Value" "LED"
-				(at 0 -2.54 0)
-				(effects
-					(font
-						(size 1.27 1.27)
-					)
-				)
-			)
-			(property "Footprint" ""
-				(at 0 0 0)
-				(effects
-					(font
-						(size 1.27 1.27)
-					)
-					(hide yes)
-				)
-			)
-			(property "Datasheet" "~"
-				(at 0 0 0)
-				(effects
-					(font
-						(size 1.27 1.27)
-					)
-					(hide yes)
-				)
-			)
-			(property "Description" "Light emitting diode"
-				(at 0 0 0)
-				(effects
-					(font
-						(size 1.27 1.27)
-					)
-					(hide yes)
-				)
-			)
-			(property "Sim.Pins" "1=K 2=A"
-				(at 0 0 0)
-				(effects
-					(font
-						(size 1.27 1.27)
-					)
-					(hide yes)
-				)
-			)
-			(property "ki_keywords" "LED diode"
-				(at 0 0 0)
-				(effects
-					(font
-						(size 1.27 1.27)
-					)
-					(hide yes)
-				)
-			)
-			(property "ki_fp_filters" "LED* LED_SMD:* LED_THT:*"
-				(at 0 0 0)
-				(effects
-					(font
-						(size 1.27 1.27)
-					)
-					(hide yes)
-				)
-			)
-			(symbol "LED_0_1"
-				(polyline
-					(pts
-						(xy -3.048 -0.762) (xy -4.572 -2.286) (xy -3.81 -2.286) (xy -4.572 -2.286) (xy -4.572 -1.524)
-					)
-					(stroke
-						(width 0)
-						(type default)
-					)
-					(fill
-						(type none)
-					)
-				)
-				(polyline
-					(pts
-						(xy -1.778 -0.762) (xy -3.302 -2.286) (xy -2.54 -2.286) (xy -3.302 -2.286) (xy -3.302 -1.524)
-					)
-					(stroke
-						(width 0)
-						(type default)
-					)
-					(fill
-						(type none)
-					)
-				)
-				(polyline
-					(pts
-						(xy -1.27 0) (xy 1.27 0)
-					)
-					(stroke
-						(width 0)
-						(type default)
-					)
-					(fill
-						(type none)
-					)
-				)
-				(polyline
-					(pts
-						(xy -1.27 -1.27) (xy -1.27 1.27)
-					)
-					(stroke
-						(width 0.254)
-						(type default)
-					)
-					(fill
-						(type none)
-					)
-				)
-				(polyline
-					(pts
-						(xy 1.27 -1.27) (xy 1.27 1.27) (xy -1.27 0) (xy 1.27 -1.27)
-					)
-					(stroke
-						(width 0.254)
-						(type default)
-					)
-					(fill
-						(type none)
-					)
-				)
-			)
-			(symbol "LED_1_1"
-				(pin passive line
-					(at -3.81 0 0)
-					(length 2.54)
-					(name "K"
-						(effects
-							(font
-								(size 1.27 1.27)
-							)
-						)
-					)
-					(number "1"
-						(effects
-							(font
-								(size 1.27 1.27)
-							)
-						)
-					)
-				)
-				(pin passive line
-					(at 3.81 0 180)
-					(length 2.54)
-					(name "A"
-						(effects
-							(font
-								(size 1.27 1.27)
-							)
-						)
-					)
-					(number "2"
-						(effects
-							(font
-								(size 1.27 1.27)
-							)
-						)
-					)
-				)
-			)
-			(embedded_fonts no)
-		)
 		(symbol "MCU_ST_STM32G4:STM32G474RETx"
 			(exclude_from_sim no)
 			(in_bom yes)
@@ -4678,7 +4495,7 @@
 		(dnp no)
 		(fields_autoplaced yes)
 		(uuid "157e454f-bc7c-4d2b-9e20-ae6b9f296d88")
-		(property "Reference" "C22"
+		(property "Reference" "C7"
 			(at 82.55 173.9899 0)
 			(effects
 				(font
@@ -4732,7 +4549,7 @@
 		(instances
 			(project "STM32G474RE_TB"
 				(path "/c8ed293a-fe87-496b-9ed5-e9e5575d3b65"
-					(reference "C22")
+					(reference "C7")
 					(unit 1)
 				)
 			)
@@ -4748,7 +4565,7 @@
 		(dnp no)
 		(fields_autoplaced yes)
 		(uuid "1852e911-42f2-43a4-9bdc-c5c2c89173f3")
-		(property "Reference" "U3"
+		(property "Reference" "U4"
 			(at 143.51 176.5299 0)
 			(effects
 				(font
@@ -4808,7 +4625,7 @@
 		(instances
 			(project "STM32G474RE_TB"
 				(path "/c8ed293a-fe87-496b-9ed5-e9e5575d3b65"
-					(reference "U3")
+					(reference "U4")
 					(unit 1)
 				)
 			)
@@ -4875,83 +4692,6 @@
 			(project "STM32G474RE_TB"
 				(path "/c8ed293a-fe87-496b-9ed5-e9e5575d3b65"
 					(reference "#PWR02")
-					(unit 1)
-				)
-			)
-		)
-	)
-	(symbol
-		(lib_id "Device:LED")
-		(at 163.83 43.18 180)
-		(unit 1)
-		(exclude_from_sim no)
-		(in_bom yes)
-		(on_board yes)
-		(dnp no)
-		(fields_autoplaced yes)
-		(uuid "286e8314-52fb-4219-a8f9-e640c4e49280")
-		(property "Reference" "D1"
-			(at 165.4175 35.56 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-			)
-		)
-		(property "Value" "KT-0805G"
-			(at 165.4175 38.1 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-			)
-		)
-		(property "Footprint" "LED_SMD:LED_0805_2012Metric"
-			(at 163.83 43.18 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(property "Datasheet" "~"
-			(at 163.83 43.18 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(property "Description" "Light emitting diode"
-			(at 163.83 43.18 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(property "Sim.Pins" "1=K 2=A"
-			(at 163.83 43.18 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(pin "1"
-			(uuid "56c4ac19-9b0e-48bc-99d5-30aa5e637039")
-		)
-		(pin "2"
-			(uuid "01018bff-0b22-45bb-8883-131593972105")
-		)
-		(instances
-			(project ""
-				(path "/c8ed293a-fe87-496b-9ed5-e9e5575d3b65"
-					(reference "D1")
 					(unit 1)
 				)
 			)
@@ -5033,7 +4773,7 @@
 		(dnp no)
 		(fields_autoplaced yes)
 		(uuid "42756da9-951f-4f6d-94d8-18183a6f680d")
-		(property "Reference" "#PWR046"
+		(property "Reference" "#PWR012"
 			(at 66.04 187.96 0)
 			(effects
 				(font
@@ -5083,7 +4823,7 @@
 		(instances
 			(project "STM32G474RE_TB"
 				(path "/c8ed293a-fe87-496b-9ed5-e9e5575d3b65"
-					(reference "#PWR046")
+					(reference "#PWR012")
 					(unit 1)
 				)
 			)
@@ -5099,7 +4839,7 @@
 		(dnp no)
 		(fields_autoplaced yes)
 		(uuid "4713993f-7f71-4a4c-9c29-d0e24853d98e")
-		(property "Reference" "#PWR013"
+		(property "Reference" "#PWR016"
 			(at 147.32 193.04 0)
 			(effects
 				(font
@@ -5149,7 +4889,7 @@
 		(instances
 			(project "STM32G474RE_TB"
 				(path "/c8ed293a-fe87-496b-9ed5-e9e5575d3b65"
-					(reference "#PWR013")
+					(reference "#PWR016")
 					(unit 1)
 				)
 			)
@@ -5165,7 +4905,7 @@
 		(dnp no)
 		(fields_autoplaced yes)
 		(uuid "47f9a172-f384-4583-819b-8452e14300cf")
-		(property "Reference" "#PWR048"
+		(property "Reference" "#PWR07"
 			(at 49.53 175.26 0)
 			(effects
 				(font
@@ -5215,7 +4955,7 @@
 		(instances
 			(project ""
 				(path "/c8ed293a-fe87-496b-9ed5-e9e5575d3b65"
-					(reference "#PWR048")
+					(reference "#PWR07")
 					(unit 1)
 				)
 			)
@@ -5231,7 +4971,7 @@
 		(dnp no)
 		(fields_autoplaced yes)
 		(uuid "58333a5e-3bdd-4f5d-aed2-bf3600c0bc5e")
-		(property "Reference" "#PWR09"
+		(property "Reference" "#PWR011"
 			(at 162.56 181.61 0)
 			(effects
 				(font
@@ -5281,7 +5021,7 @@
 		(instances
 			(project "STM32G474RE_TB"
 				(path "/c8ed293a-fe87-496b-9ed5-e9e5575d3b65"
-					(reference "#PWR09")
+					(reference "#PWR011")
 					(unit 1)
 				)
 			)
@@ -5297,7 +5037,7 @@
 		(dnp no)
 		(fields_autoplaced yes)
 		(uuid "5e8ac460-dce3-496c-aa00-21533c8b58c7")
-		(property "Reference" "U2"
+		(property "Reference" "U3"
 			(at 110.49 167.64 0)
 			(effects
 				(font
@@ -5353,7 +5093,7 @@
 		(instances
 			(project ""
 				(path "/c8ed293a-fe87-496b-9ed5-e9e5575d3b65"
-					(reference "U2")
+					(reference "U3")
 					(unit 1)
 				)
 			)
@@ -5369,7 +5109,7 @@
 		(dnp no)
 		(fields_autoplaced yes)
 		(uuid "6364eac6-d7f4-41f7-abef-2b8f2f11f976")
-		(property "Reference" "U10"
+		(property "Reference" "U2"
 			(at 66.04 165.1 0)
 			(effects
 				(font
@@ -5426,7 +5166,7 @@
 		(instances
 			(project ""
 				(path "/c8ed293a-fe87-496b-9ed5-e9e5575d3b65"
-					(reference "U10")
+					(reference "U2")
 					(unit 1)
 				)
 			)
@@ -5508,7 +5248,7 @@
 		(dnp no)
 		(fields_autoplaced yes)
 		(uuid "7f3ea13b-e8d6-4194-a3c0-d509af9e365d")
-		(property "Reference" "#PWR07"
+		(property "Reference" "#PWR09"
 			(at 93.98 176.53 0)
 			(effects
 				(font
@@ -5558,7 +5298,7 @@
 		(instances
 			(project "STM32G474RE_TB"
 				(path "/c8ed293a-fe87-496b-9ed5-e9e5575d3b65"
-					(reference "#PWR07")
+					(reference "#PWR09")
 					(unit 1)
 				)
 			)
@@ -5640,7 +5380,7 @@
 		(dnp no)
 		(fields_autoplaced yes)
 		(uuid "8a95b125-3530-45de-865c-4f624f142c1c")
-		(property "Reference" "#PWR010"
+		(property "Reference" "#PWR013"
 			(at 93.98 187.96 0)
 			(effects
 				(font
@@ -5690,7 +5430,7 @@
 		(instances
 			(project "STM32G474RE_TB"
 				(path "/c8ed293a-fe87-496b-9ed5-e9e5575d3b65"
-					(reference "#PWR010")
+					(reference "#PWR013")
 					(unit 1)
 				)
 			)
@@ -5842,7 +5582,7 @@
 		(dnp no)
 		(fields_autoplaced yes)
 		(uuid "ac9f2262-8d6e-4568-9577-d99dfe71dd27")
-		(property "Reference" "#PWR012"
+		(property "Reference" "#PWR015"
 			(at 123.19 187.96 0)
 			(effects
 				(font
@@ -5892,7 +5632,7 @@
 		(instances
 			(project "STM32G474RE_TB"
 				(path "/c8ed293a-fe87-496b-9ed5-e9e5575d3b65"
-					(reference "#PWR012")
+					(reference "#PWR015")
 					(unit 1)
 				)
 			)
@@ -6182,7 +5922,7 @@
 		(dnp no)
 		(fields_autoplaced yes)
 		(uuid "b9bf22aa-2775-4556-baa5-57f88da4275a")
-		(property "Reference" "C21"
+		(property "Reference" "C6"
 			(at 53.34 173.9899 0)
 			(effects
 				(font
@@ -6236,7 +5976,7 @@
 		(instances
 			(project "STM32G474RE_TB"
 				(path "/c8ed293a-fe87-496b-9ed5-e9e5575d3b65"
-					(reference "C21")
+					(reference "C6")
 					(unit 1)
 				)
 			)
@@ -6322,7 +6062,7 @@
 		(dnp no)
 		(fields_autoplaced yes)
 		(uuid "c3bef316-66e3-40c4-a454-3d09303c2616")
-		(property "Reference" "C6"
+		(property "Reference" "C8"
 			(at 97.79 176.5299 0)
 			(effects
 				(font
@@ -6376,7 +6116,7 @@
 		(instances
 			(project "STM32G474RE_TB"
 				(path "/c8ed293a-fe87-496b-9ed5-e9e5575d3b65"
-					(reference "C6")
+					(reference "C8")
 					(unit 1)
 				)
 			)
@@ -6392,7 +6132,7 @@
 		(dnp no)
 		(fields_autoplaced yes)
 		(uuid "cfdc0fea-5817-497f-ba0e-bbc4997bc593")
-		(property "Reference" "#PWR08"
+		(property "Reference" "#PWR010"
 			(at 123.19 177.8 0)
 			(effects
 				(font
@@ -6442,7 +6182,7 @@
 		(instances
 			(project "STM32G474RE_TB"
 				(path "/c8ed293a-fe87-496b-9ed5-e9e5575d3b65"
-					(reference "#PWR08")
+					(reference "#PWR010")
 					(unit 1)
 				)
 			)
@@ -6715,7 +6455,7 @@
 		(dnp no)
 		(fields_autoplaced yes)
 		(uuid "d759914e-c4cc-49ed-bd2d-576a96dbe17b")
-		(property "Reference" "#PWR011"
+		(property "Reference" "#PWR014"
 			(at 110.49 187.96 0)
 			(effects
 				(font
@@ -6765,7 +6505,7 @@
 		(instances
 			(project "STM32G474RE_TB"
 				(path "/c8ed293a-fe87-496b-9ed5-e9e5575d3b65"
-					(reference "#PWR011")
+					(reference "#PWR014")
 					(unit 1)
 				)
 			)
@@ -6781,7 +6521,7 @@
 		(dnp no)
 		(fields_autoplaced yes)
 		(uuid "da1b2eef-523d-46e5-a18d-3317b3fa6ddb")
-		(property "Reference" "#PWR047"
+		(property "Reference" "#PWR08"
 			(at 78.74 175.26 0)
 			(effects
 				(font
@@ -6831,7 +6571,7 @@
 		(instances
 			(project "STM32G474RE_TB"
 				(path "/c8ed293a-fe87-496b-9ed5-e9e5575d3b65"
-					(reference "#PWR047")
+					(reference "#PWR08")
 					(unit 1)
 				)
 			)
@@ -6847,7 +6587,7 @@
 		(dnp no)
 		(fields_autoplaced yes)
 		(uuid "e3a07cb0-868b-45b0-a151-0b66543775c1")
-		(property "Reference" "C7"
+		(property "Reference" "C9"
 			(at 127 176.5299 0)
 			(effects
 				(font
@@ -6901,7 +6641,7 @@
 		(instances
 			(project "STM32G474RE_TB"
 				(path "/c8ed293a-fe87-496b-9ed5-e9e5575d3b65"
-					(reference "C7")
+					(reference "C9")
 					(unit 1)
 				)
 			)
@@ -7235,6 +6975,48 @@
 			(project "STM32G474RE_TB"
 				(path "/c8ed293a-fe87-496b-9ed5-e9e5575d3b65"
 					(page "4")
+				)
+			)
+		)
+	)
+	(sheet
+		(at 48.26 119.38)
+		(size 39.37 20.32)
+		(exclude_from_sim no)
+		(in_bom yes)
+		(on_board yes)
+		(dnp no)
+		(fields_autoplaced yes)
+		(stroke
+			(width 0.1524)
+			(type solid)
+		)
+		(fill
+			(color 0 0 0 0.0000)
+		)
+		(uuid "a28fd0ca-a27e-4c65-b9a3-0ced20d1a242")
+		(property "Sheetname" "LED's and FET's"
+			(at 48.26 118.6684 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left bottom)
+			)
+		)
+		(property "Sheetfile" "TIM_LED_FET.kicad_sch"
+			(at 48.26 140.2846 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left top)
+			)
+		)
+		(instances
+			(project "STM32G474RE_TB"
+				(path "/c8ed293a-fe87-496b-9ed5-e9e5575d3b65"
+					(page "5")
 				)
 			)
 		)

@@ -477,20 +477,26 @@
       {
         "name": "SPI2",
         "pcb_color": "rgb(255, 154, 69)",
-        "priority": 1,
+        "priority": 2,
         "schematic_color": "rgb(255, 154, 69)"
       },
       {
         "name": "SPI2_CS",
         "pcb_color": "rgb(199, 48, 255)",
-        "priority": 0,
+        "priority": 1,
         "schematic_color": "rgb(199, 48, 255)"
       },
       {
         "name": "STM32DAC_Outputs",
         "pcb_color": "rgb(34, 185, 255)",
-        "priority": 2,
+        "priority": 3,
         "schematic_color": "rgb(34, 185, 255)"
+      },
+      {
+        "name": "TIM_LED",
+        "pcb_color": "rgb(255, 227, 107)",
+        "priority": 0,
+        "schematic_color": "rgb(255, 227, 107)"
       }
     ],
     "meta": {
@@ -550,6 +556,66 @@
       {
         "netclass": "SPI2_CS",
         "pattern": "/DAC4_CS"
+      },
+      {
+        "netclass": "TIM_LED",
+        "pattern": "/TIM1_CH1"
+      },
+      {
+        "netclass": "TIM_LED",
+        "pattern": "/TIM1_CH2"
+      },
+      {
+        "netclass": "TIM_LED",
+        "pattern": "/TIM1_CH3"
+      },
+      {
+        "netclass": "TIM_LED",
+        "pattern": "/TIM1_CH4"
+      },
+      {
+        "netclass": "TIM_LED",
+        "pattern": "/TIM3_CH4"
+      },
+      {
+        "netclass": "TIM_LED",
+        "pattern": "/TIM4_CH3"
+      },
+      {
+        "netclass": "TIM_LED",
+        "pattern": "/TIM4_CH4"
+      },
+      {
+        "netclass": "TIM_LED",
+        "pattern": "/TIM3_CH1"
+      },
+      {
+        "netclass": "TIM_LED",
+        "pattern": "/TIM5_CH1"
+      },
+      {
+        "netclass": "TIM_LED",
+        "pattern": "/TIM3_CH3"
+      },
+      {
+        "netclass": "TIM_LED",
+        "pattern": "/TIM4_CH2"
+      },
+      {
+        "netclass": "TIM_LED",
+        "pattern": "/TIM4_CH1"
+      },
+      {
+        "netclass": "TIM_LED",
+        "pattern": "/TIM3_CH2"
+      },
+      {
+        "netclass": "TIM_LED",
+        "pattern": "/TIM5_CH4"
+      },
+      {
+        "netclass": "TIM_LED",
+        "pattern": "/TIM5_CH2"
       }
     ]
   },
@@ -696,6 +762,10 @@
     [
       "29c1d440-e5ec-4818-a74f-fea8fba346c9",
       "DAC_Buffers"
+    ],
+    [
+      "a28fd0ca-a27e-4c65-b9a3-0ced20d1a242",
+      "LED's and FET's"
     ]
   ],
   "text_variables": {}
