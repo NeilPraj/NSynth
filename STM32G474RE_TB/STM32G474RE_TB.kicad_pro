@@ -496,7 +496,7 @@
         "name": "TIM_LED",
         "pcb_color": "rgb(255, 227, 107)",
         "priority": 0,
-        "schematic_color": "rgb(255, 227, 107)"
+        "schematic_color": "rgb(255, 188, 46)"
       }
     ],
     "meta": {
