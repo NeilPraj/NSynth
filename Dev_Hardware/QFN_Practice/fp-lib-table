@@ -1,0 +1,4 @@
+(fp_lib_table
+  (version 7)
+  (lib (name "SMD_SWITCH")(type "KiCad")(uri "C:/Users/neilp/Documents/Projects_25/Synth/NSynth/Dev_Hardware/KLIB/SMD_SWITCH")(options "")(descr ""))
+)
