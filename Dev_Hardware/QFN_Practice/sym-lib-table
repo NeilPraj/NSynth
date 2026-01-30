@@ -1,0 +1,4 @@
+(sym_lib_table
+  (version 7)
+  (lib (name "FTSH-105-01-X-DV-K-X")(type "KiCad")(uri "/home/neilp/Documents/projects/synth/NSynth/Dev_Hardware/KLIB/SWD_conn/FTSH_105_01_L_DV_K/FTSH-105-01-X-DV-K-X.kicad_sym")(options "")(descr ""))
+)
