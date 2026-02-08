@@ -189,7 +189,8 @@
       "track_widths": [
         0.0,
         0.2,
-        0.25
+        0.25,
+        0.3
       ],
       "tuning_pattern_settings": {
         "diff_pair_defaults": {
@@ -507,7 +508,12 @@
     },
     "net_colors": null,
     "netclass_assignments": null,
-    "netclass_patterns": []
+    "netclass_patterns": [
+      {
+        "netclass": "Default",
+        "pattern": "/TXD_MCU"
+      }
+    ]
   },
   "pcbnew": {
     "last_paths": {
@@ -640,10 +646,6 @@
     [
       "393b3add-c613-4969-a1a9-4f33bd0f74b6",
       "Root"
-    ],
-    [
-      "6aefda6d-9351-4cf8-a546-6f11ae724bf8",
-      "MCU_Support"
     ]
   ],
   "text_variables": {}

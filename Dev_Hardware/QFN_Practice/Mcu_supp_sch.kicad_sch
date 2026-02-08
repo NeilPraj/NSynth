@@ -1042,7 +1042,7 @@
 		)
 		(uuid "260cf682-16eb-4b41-94f6-10fe2f7998e1")
 	)
-	(hierarchical_label "nRST"
+	(hierarchical_label "m_nRST"
 		(shape input)
 		(at 36.83 74.93 180)
 		(effects
@@ -1051,9 +1051,9 @@
 			)
 			(justify right)
 		)
-		(uuid "38f354a0-3372-4a3c-8c62-e20a68102f54")
+		(uuid "455f2b19-42b5-48cb-a145-fc7a9aeee045")
 	)
-	(hierarchical_label "ISP"
+	(hierarchical_label "m_ISP"
 		(shape input)
 		(at 39.37 30.48 180)
 		(effects
@@ -1062,7 +1062,7 @@
 			)
 			(justify right)
 		)
-		(uuid "6a6c7e06-ce2a-4832-970a-3cea5e85f280")
+		(uuid "8a44ee8f-5d35-43c4-87c5-36d8490b7cae")
 	)
 	(hierarchical_label "m_SWDIO"
 		(shape input)
